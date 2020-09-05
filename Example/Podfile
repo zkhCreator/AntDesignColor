@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AntDesignColor_Example' do
+  pod 'AntDesignColor', :path => '../'
+
+  target 'AntDesignColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
