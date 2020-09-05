@@ -1,0 +1,27 @@
+{
+  "name": "AntDesignColor",
+  "version": "0.1.0",
+  "summary": "A short description of AntDesignColor.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zkh90644@gmail.com/AntDesignColor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zkh90644@gmail.com": "zkh90644@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zkh90644@gmail.com/AntDesignColor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AntDesignColor/Classes/**/*",
+  "dependencies": {
+    "UIColor_Hex_Swift": [
+
+    ]
+  }
+}

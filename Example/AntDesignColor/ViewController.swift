@@ -8,6 +8,32 @@
 
 import UIKit
 
+struct ColorItem {
+    let color:UIColor
+    let colorValue:String
+    
+    let fontColor:UIColor
+    
+    init(color:UIColor, colorValue:String, fontColor:UIColor) {
+        self.color = color
+        self.colorValue = colorValue
+        self.fontColor = fontColor
+    }
+}
+
+struct ColorGroup {
+    let title:String
+    let desc:String
+    
+    let colors:[ColorItem]
+    
+    init(title: String, desc: String, colors:[ColorItem]) {
+        self.title = title
+        self.desc = desc
+        self.colors = colors
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

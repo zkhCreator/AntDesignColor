@@ -1,0 +1,6 @@
+framework module AntDesignColor {
+  umbrella header "AntDesignColor-umbrella.h"
+
+  export *
+  module * { export * }
+}
