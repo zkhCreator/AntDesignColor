@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		E84C2A1225047F0D000597FA /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C2A1125047F0D000597FA /* ColorManager.swift */; };
+		E84C2A1425047FAE000597FA /* ColorInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C2A1325047FAE000597FA /* ColorInfoTableViewCell.swift */; };
+		E84C2A1625048315000597FA /* ColorInfoSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84C2A1525048315000597FA /* ColorInfoSectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,7 @@
 /* Begin PBXFileReference section */
 		198257F6ABC9B2E1B148C7F5 /* Pods_AntDesignColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntDesignColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8F5C7189BBB4EF6967553B /* Pods-AntDesignColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntDesignColor_Example.release.xcconfig"; path = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		57926827ED414443F4C24896 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57926827ED414443F4C24896 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		59A05358BE383C0FA3CFD76C /* Pods_AntDesignColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntDesignColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AntDesignColor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntDesignColor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,10 +46,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B6AAE3B6FFA4EE01C406E11 /* Pods-AntDesignColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntDesignColor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AntDesignColor_Tests/Pods-AntDesignColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		789CB919784FFE2A04FF4A36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		789CB919784FFE2A04FF4A36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AF430BD3BB959AFF20A5A391 /* Pods-AntDesignColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntDesignColor_Example.debug.xcconfig"; path = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CCA2416B75A9DF096FB5F29F /* Pods-AntDesignColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntDesignColor_Tests.release.xcconfig"; path = "Target Support Files/Pods-AntDesignColor_Tests/Pods-AntDesignColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E87A21B54157005090FFF2D0 /* AntDesignColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AntDesignColor.podspec; path = ../AntDesignColor.podspec; sourceTree = "<group>"; };
+		E84C2A1125047F0D000597FA /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		E84C2A1325047FAE000597FA /* ColorInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInfoTableViewCell.swift; sourceTree = "<group>"; };
+		E84C2A1525048315000597FA /* ColorInfoSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInfoSectionHeaderView.swift; sourceTree = "<group>"; };
+		E87A21B54157005090FFF2D0 /* AntDesignColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AntDesignColor.podspec; path = ../AntDesignColor.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,6 @@
 				6B6AAE3B6FFA4EE01C406E11 /* Pods-AntDesignColor_Tests.debug.xcconfig */,
 				CCA2416B75A9DF096FB5F29F /* Pods-AntDesignColor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +112,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				E84C2A1525048315000597FA /* ColorInfoSectionHeaderView.swift */,
+				E84C2A1325047FAE000597FA /* ColorInfoTableViewCell.swift */,
+				E84C2A1125047F0D000597FA /* ColorManager.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +342,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E84C2A1225047F0D000597FA /* ColorManager.swift in Sources */,
+				E84C2A1625048315000597FA /* ColorInfoSectionHeaderView.swift in Sources */,
+				E84C2A1425047FAE000597FA /* ColorInfoTableViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

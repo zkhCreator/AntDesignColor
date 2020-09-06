@@ -8,10 +8,10 @@
 import UIKit
 import UIColor_Hex_Swift
 
-// Usage 1: UIColor.AntColor.dustRed.v1 -> UIColor
-// Usage 2: UIColor.AntColor.color(.DustRed).v1 -> Color
+// Usage 1: UIColor.Ant.DustRed.v1 -> UIColor?
+// Usage 2: UIColor.Ant.color(.DustRed).v1 -> Color?
 
-protocol AntColorProtocol {
+public protocol AntColorProtocol {
     var v1: UIColor { get }
     var v2: UIColor { get }
     var v3: UIColor { get }
@@ -22,10 +22,13 @@ protocol AntColorProtocol {
     var v8: UIColor { get }
     var v9: UIColor { get }
     var v10: UIColor { get }
+    var v11: UIColor? { get }
+    var v12: UIColor? { get }
+    var v13: UIColor? { get }
 }
 
 // MARK: - Hue
-extension UIColor {
+public extension UIColor {
     static var defaultDarkColor = UIColor("#31465A")
     static var defaultLightColor = UIColor.white
     
@@ -66,7 +69,8 @@ extension UIColor {
         return (luminanceLighter + 0.05) / (luminanceDarker + 0.05)
     }
 }
-extension UIColor {
+
+public extension UIColor {
     struct Ant {
         enum AntColorItem:String, CaseIterable {
             case GoldenPurple = "GoldenPurple"
@@ -80,7 +84,6 @@ extension UIColor {
             case SunsetOrange = "SunsetOrange"
             case Volcano = "Volcano"
             case DustRed = "DustRed"
-            
             case Magenta = "Magenta"
             case Gray = "Gray"
         }
@@ -118,706 +121,999 @@ extension UIColor {
     }
 }
 
-extension UIColor.Ant {
+public extension UIColor.Ant {
     // MARK: - Dust Red
     struct DustRed: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return DustRed.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return DustRed.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return DustRed.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return DustRed.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return DustRed.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return DustRed.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return DustRed.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return DustRed.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return DustRed.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return DustRed.v10
         }
         
-        static let v1 = UIColor("#fff1f0")
-        static let v2 = UIColor("#ffccc7")
-        static let v3 = UIColor("#ffa39e")
-        static let v4 = UIColor("#ff7875")
-        static let v5 = UIColor("#ff4d4f")
-        static let v6 = UIColor("#f5222d")
-        static let v7 = UIColor("#cf1322")
-        static let v8 = UIColor("#a8071a")
-        static let v9 = UIColor("#820014")
-        static let v10 = UIColor("#5c0011")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        /// Dust Red v1 **#fff1f0**
+        public static let v1 = UIColor("#fff1f0")
+        /// Dust Red v2 **#ffccc7**
+        public static let v2 = UIColor("#ffccc7")
+        /// Dust Red v3 **#ffa39e**
+        public static let v3 = UIColor("#ffa39e")
+        /// Dust Red v4 **#ff7875**
+        public static let v4 = UIColor("#ff7875")
+        /// Dust Red v5 **#ff4d4f**
+        public static let v5 = UIColor("#ff4d4f")
+        /// Dust Red v6 **#f5222d**
+        public static let v6 = UIColor("#f5222d")
+        /// Dust Red v7 **#cf1322**
+        public static let v7 = UIColor("#cf1322")
+        /// Dust Red v8 **#a8071a**
+        public static let v8 = UIColor("#a8071a")
+        /// Dust Red v9 **#820014**
+        public static let v9 = UIColor("#820014")
+        /// Dust Red v10 **#5c0011**
+        public static let v10 = UIColor("#5c0011")
+
     }
     
     // MARK: - Volcano
     struct Volcano: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return Volcano.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return Volcano.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return Volcano.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return Volcano.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return Volcano.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return Volcano.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return Volcano.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return Volcano.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return Volcano.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return Volcano.v10
         }
         
-        static let v1 = UIColor("#fff2e8")
-        static let v2 = UIColor("#ffd8bf")
-        static let v3 = UIColor("#ffbb96")
-        static let v4 = UIColor("#ff9c6e")
-        static let v5 = UIColor("#ff7a45")
-        static let v6 = UIColor("#fa541c")
-        static let v7 = UIColor("#d4380d")
-        static let v8 = UIColor("#ad2102")
-        static let v9 = UIColor("#871400")
-        static let v10 = UIColor("#610b00")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// Volcano v1 **#fff2e8**
+        public static let v1 = UIColor("#fff2e8")
+        /// Volcano v2 **#ffd8bf**
+        public static let v2 = UIColor("#ffd8bf")
+        /// Volcano v3 **#ffbb96**
+        public static let v3 = UIColor("#ffbb96")
+        /// Volcano v4 **#ff9c6e**
+        public static let v4 = UIColor("#ff9c6e")
+        /// Volcano v5 **#ff7a45**
+        public static let v5 = UIColor("#ff7a45")
+        /// Volcano v6 **#fa541c**
+        public static let v6 = UIColor("#fa541c")
+        /// Volcano v7 **#d4380d**
+        public static let v7 = UIColor("#d4380d")
+        /// Volcano v8 **#ad2102**
+        public static let v8 = UIColor("#ad2102")
+        /// Volcano v9 **#871400**
+        public static let v9 = UIColor("#871400")
+        /// Volcano v10 **#610b00**
+        public static let v10 = UIColor("#610b00")
     }
     
     // MARK: - Sunset Orange
     struct SunsetOrange: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return SunsetOrange.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return SunsetOrange.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return SunsetOrange.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return SunsetOrange.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return SunsetOrange.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return SunsetOrange.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return SunsetOrange.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return SunsetOrange.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return SunsetOrange.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return SunsetOrange.v10
         }
         
-        static let v1 = UIColor("#fff7e6")
-        static let v2 = UIColor("#ffe7ba")
-        static let v3 = UIColor("#ffd591")
-        static let v4 = UIColor("#ffc069")
-        static let v5 = UIColor("#ffa940")
-        static let v6 = UIColor("#d46b08")
-        static let v7 = UIColor("#d46b08")
-        static let v8 = UIColor("#ad4e00")
-        static let v9 = UIColor("#873800")
-        static let v10 = UIColor("#612500")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// SunsetOrange v1 **#fff7e6**
+        public static let v1 = UIColor("#fff7e6")
+        /// SunsetOrange v2 **#ffe7ba**
+        public static let v2 = UIColor("#ffe7ba")
+        /// SunsetOrange v3 **#ffd591**
+        public static let v3 = UIColor("#ffd591")
+        /// SunsetOrange v4 **#ffc069**
+        public static let v4 = UIColor("#ffc069")
+        /// SunsetOrange v5 **#ffa940**
+        public static let v5 = UIColor("#ffa940")
+        /// SunsetOrange v6 **#d46b08**
+        public static let v6 = UIColor("#d46b08")
+        /// SunsetOrange v7 **#d46b08**
+        public static let v7 = UIColor("#d46b08")
+        /// SunsetOrange v8 **#ad4e00**
+        public static let v8 = UIColor("#ad4e00")
+        /// SunsetOrange v9 **#873800**
+        public static let v9 = UIColor("#873800")
+        /// SunsetOrange v10 **#612500**
+        public static let v10 = UIColor("#612500")
     }
     
     // MARK: - Calendula Gold
     struct CalendulaGold: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return CalendulaGold.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return CalendulaGold.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return CalendulaGold.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return CalendulaGold.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return CalendulaGold.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return CalendulaGold.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return CalendulaGold.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return CalendulaGold.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return CalendulaGold.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return CalendulaGold.v10
         }
         
-        static let v1 = UIColor("#fffbe6")
-        static let v2 = UIColor("#fff1b8")
-        static let v3 = UIColor("#ffe58f")
-        static let v4 = UIColor("#ffd666")
-        static let v5 = UIColor("#ffc53d")
-        static let v6 = UIColor("#faad14")
-        static let v7 = UIColor("#d48806")
-        static let v8 = UIColor("#ad6800")
-        static let v9 = UIColor("#874d00")
-        static let v10 = UIColor("#613400")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// CalendulaGold v1 **#fffbe6**
+        public static let v1 = UIColor("#fffbe6")
+        /// CalendulaGold v2 **#fff1b8**
+        public static let v2 = UIColor("#fff1b8")
+        /// CalendulaGold v3 **#ffe58f**
+        public static let v3 = UIColor("#ffe58f")
+        /// CalendulaGold v4 **#ffd666**
+        public static let v4 = UIColor("#ffd666")
+        /// CalendulaGold v5 **#ffc53d**
+        public static let v5 = UIColor("#ffc53d")
+        /// CalendulaGold v6 **#faad14**
+        public static let v6 = UIColor("#faad14")
+        /// CalendulaGold v7 **#d48806**
+        public static let v7 = UIColor("#d48806")
+        /// CalendulaGold v8 **#ad6800**
+        public static let v8 = UIColor("#ad6800")
+        /// CalendulaGold v9 **#874d00**
+        public static let v9 = UIColor("#874d00")
+        /// CalendulaGold v10 **#613400**
+        public static let v10 = UIColor("#613400")
     }
     
     // MARK: - Sunrise Yellow
     struct SunriseYellow: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return SunriseYellow.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return SunriseYellow.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return SunriseYellow.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return SunriseYellow.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return SunriseYellow.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return SunriseYellow.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return SunriseYellow.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return SunriseYellow.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return SunriseYellow.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return SunriseYellow.v10
         }
         
-        static let v1 = UIColor("#feffe6")
-        static let v2 = UIColor("#ffffb8")
-        static let v3 = UIColor("#fffb8f")
-        static let v4 = UIColor("#fff566")
-        static let v5 = UIColor("#ffec3d")
-        static let v6 = UIColor("#fadb14")
-        static let v7 = UIColor("#d4b106")
-        static let v8 = UIColor("#ad8b00")
-        static let v9 = UIColor("#876800")
-        static let v10 = UIColor("#614700")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// SunriseYellow v1 **#feffe6**
+        public static let v1 = UIColor("#feffe6")
+        /// SunriseYellow v2 **#ffffb8**
+        public static let v2 = UIColor("#ffffb8")
+        /// SunriseYellow v3 **#fffb8f**
+        public static let v3 = UIColor("#fffb8f")
+        /// SunriseYellow v4 **#fff566**
+        public static let v4 = UIColor("#fff566")
+        /// SunriseYellow v5 **#ffec3d**
+        public static let v5 = UIColor("#ffec3d")
+        /// SunriseYellow v6 **#fadb14**
+        public static let v6 = UIColor("#fadb14")
+        /// SunriseYellow v7 **#d4b106**
+        public static let v7 = UIColor("#d4b106")
+        /// SunriseYellow v8 **#ad8b00**
+        public static let v8 = UIColor("#ad8b00")
+        /// SunriseYellow v9 **#876800**
+        public static let v9 = UIColor("#876800")
+        /// SunriseYellow v10 **#614700**
+        public static let v10 = UIColor("#614700")
     }
     
     // MARK: - Lime
     struct Lime: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return Lime.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return Lime.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return Lime.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return Lime.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return Lime.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return Lime.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return Lime.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return Lime.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return Lime.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return Lime.v10
         }
         
-        static let v1 = UIColor("#fcffe6")
-        static let v2 = UIColor("#f4ffb8")
-        static let v3 = UIColor("#eaff8f")
-        static let v4 = UIColor("#d3f261")
-        static let v5 = UIColor("#bae637")
-        static let v6 = UIColor("#a0d911")
-        static let v7 = UIColor("#7cb305")
-        static let v8 = UIColor("#5b8c00")
-        static let v9 = UIColor("#3f6600")
-        static let v10 = UIColor("#254000")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// Lime v1 **#fcffe6**
+        public static let v1 = UIColor("#fcffe6")
+        /// Lime v2 **#f4ffb8**
+        public static let v2 = UIColor("#f4ffb8")
+        /// Lime v3 **#eaff8f**
+        public static let v3 = UIColor("#eaff8f")
+        /// Lime v4 **#d3f261**
+        public static let v4 = UIColor("#d3f261")
+        /// Lime v5 **#bae637**
+        public static let v5 = UIColor("#bae637")
+        /// Lime v6 **#a0d911**
+        public static let v6 = UIColor("#a0d911")
+        /// Lime v7 **#7cb305**
+        public static let v7 = UIColor("#7cb305")
+        /// Lime v8 **#5b8c00**
+        public static let v8 = UIColor("#5b8c00")
+        /// Lime v9 **#3f6600**
+        public static let v9 = UIColor("#3f6600")
+        /// Lime v10 **#254000**
+        public static let v10 = UIColor("#254000")
     }
     
     // MARK: - Polar Green
     struct PolarGreen: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return PolarGreen.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return PolarGreen.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return PolarGreen.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return PolarGreen.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return PolarGreen.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return PolarGreen.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return PolarGreen.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return PolarGreen.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return PolarGreen.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return PolarGreen.v10
         }
         
-        static let v1 = UIColor("#f6ffed")
-        static let v2 = UIColor("#d9f7be")
-        static let v3 = UIColor("#b7eb8f")
-        static let v4 = UIColor("#95de64")
-        static let v5 = UIColor("#73d13d")
-        static let v6 = UIColor("#52c41a")
-        static let v7 = UIColor("#389e0d")
-        static let v8 = UIColor("#237804")
-        static let v9 = UIColor("#135200")
-        static let v10 = UIColor("#092b00")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// PolarGreen v1 **#f6ffed**
+        public static let v1 = UIColor("#f6ffed")
+        /// PolarGreen v2 **#d9f7be**
+        public static let v2 = UIColor("#d9f7be")
+        /// PolarGreen v3 **#b7eb8f**
+        public static let v3 = UIColor("#b7eb8f")
+        /// PolarGreen v4 **#95de64**
+        public static let v4 = UIColor("#95de64")
+        /// PolarGreen v5 **#73d13d**
+        public static let v5 = UIColor("#73d13d")
+        /// PolarGreen v6 **#52c41a**
+        public static let v6 = UIColor("#52c41a")
+        /// PolarGreen v7 **#389e0d**
+        public static let v7 = UIColor("#389e0d")
+        /// PolarGreen v8 **#237804**
+        public static let v8 = UIColor("#237804")
+        /// PolarGreen v9 **#135200**
+        public static let v9 = UIColor("#135200")
+        /// PolarGreen v10 **#092b00**
+        public static let v10 = UIColor("#092b00")
     }
     
     // MARK: - Cyan
     struct Cyan: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return Cyan.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return Cyan.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return Cyan.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return Cyan.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return Cyan.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return Cyan.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return Cyan.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return Cyan.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return Cyan.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return Cyan.v10
         }
         
-        static let v1 = UIColor("#e6fffb")
-        static let v2 = UIColor("#b5f5ec")
-        static let v3 = UIColor("#87e8de")
-        static let v4 = UIColor("#5cdbd3")
-        static let v5 = UIColor("#36cfc9")
-        static let v6 = UIColor("#13c2c2")
-        static let v7 = UIColor("#08979c")
-        static let v8 = UIColor("#006d75")
-        static let v9 = UIColor("#00474f")
-        static let v10 = UIColor("#002329")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// Cyan v1 **#e6fffb**
+        public static let v1 = UIColor("#e6fffb")
+        /// Cyan v2 **#b5f5ec**
+        public static let v2 = UIColor("#b5f5ec")
+        /// Cyan v3 **#87e8de**
+        public static let v3 = UIColor("#87e8de")
+        /// Cyan v4 **#5cdbd3**
+        public static let v4 = UIColor("#5cdbd3")
+        /// Cyan v5 **#36cfc9**
+        public static let v5 = UIColor("#36cfc9")
+        /// Cyan v6 **#13c2c2**
+        public static let v6 = UIColor("#13c2c2")
+        /// Cyan v7 **#08979c**
+        public static let v7 = UIColor("#08979c")
+        /// Cyan v8 **#006d75**
+        public static let v8 = UIColor("#006d75")
+        /// Cyan v9 **#00474f**
+        public static let v9 = UIColor("#00474f")
+        /// Cyan v10 **#002329**
+        public static let v10 = UIColor("#002329")
     }
     
     // MARK: - Daybreak Blue
     struct DaybreakBlue: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return DaybreakBlue.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return DaybreakBlue.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return DaybreakBlue.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return DaybreakBlue.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return DaybreakBlue.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return DaybreakBlue.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return DaybreakBlue.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return DaybreakBlue.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return DaybreakBlue.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return DaybreakBlue.v10
         }
         
-        static let v1 = UIColor("#e6f7ff")
-        static let v2 = UIColor("#bae7ff")
-        static let v3 = UIColor("#91d5ff")
-        static let v4 = UIColor("#69c0ff")
-        static let v5 = UIColor("#40a9ff")
-        static let v6 = UIColor("#1890ff")
-        static let v7 = UIColor("#096dd9")
-        static let v8 = UIColor("#0050b3")
-        static let v9 = UIColor("#003a8c")
-        static let v10 = UIColor("#002766")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// DaybreakBlue v1 **#e6f7ff**
+        public static let v1 = UIColor("#e6f7ff")
+        /// DaybreakBlue v2 **#bae7ff**
+        public static let v2 = UIColor("#bae7ff")
+        /// DaybreakBlue v3 **#91d5ff**
+        public static let v3 = UIColor("#91d5ff")
+        /// DaybreakBlue v4 **#69c0ff**
+        public static let v4 = UIColor("#69c0ff")
+        /// DaybreakBlue v5 **#40a9ff**
+        public static let v5 = UIColor("#40a9ff")
+        /// DaybreakBlue v6 **#1890ff**
+        public static let v6 = UIColor("#1890ff")
+        /// DaybreakBlue v7 **#096dd9**
+        public static let v7 = UIColor("#096dd9")
+        /// DaybreakBlue v8 **#0050b3**
+        public static let v8 = UIColor("#0050b3")
+        /// DaybreakBlue v9 **#003a8c**
+        public static let v9 = UIColor("#003a8c")
+        /// DaybreakBlue v10 **#002766**
+        public static let v10 = UIColor("#002766")
     }
     
     // MARK: - Geek Blue
     struct GeekBlue: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return GeekBlue.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return GeekBlue.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return GeekBlue.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return GeekBlue.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return GeekBlue.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return GeekBlue.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return GeekBlue.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return GeekBlue.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return GeekBlue.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return GeekBlue.v10
         }
         
-        static let v1 = UIColor("#f0f5ff")
-        static let v2 = UIColor("#d6e4ff")
-        static let v3 = UIColor("#adc6ff")
-        static let v4 = UIColor("#85a5ff")
-        static let v5 = UIColor("#597ef7")
-        static let v6 = UIColor("#2f54eb")
-        static let v7 = UIColor("#1d39c4")
-        static let v8 = UIColor("#10239e")
-        static let v9 = UIColor("#061178")
-        static let v10 = UIColor("#030852")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// GeekBlue v1 **#f0f5ff**
+        public static let v1 = UIColor("#f0f5ff")
+        /// GeekBlue v2 **#d6e4ff**
+        public static let v2 = UIColor("#d6e4ff")
+        /// GeekBlue v3 **#adc6ff**
+        public static let v3 = UIColor("#adc6ff")
+        /// GeekBlue v4 **#85a5ff**
+        public static let v4 = UIColor("#85a5ff")
+        /// GeekBlue v5 **#597ef7**
+        public static let v5 = UIColor("#597ef7")
+        /// GeekBlue v6 **#2f54eb**
+        public static let v6 = UIColor("#2f54eb")
+        /// GeekBlue v7 **#1d39c4**
+        public static let v7 = UIColor("#1d39c4")
+        /// GeekBlue v8 **#10239e**
+        public static let v8 = UIColor("#10239e")
+        /// GeekBlue v9 **#061178**
+        public static let v9 = UIColor("#061178")
+        /// GeekBlue v10 **#030852**
+        public static let v10 = UIColor("#030852")
     }
     
     // MARK: - Golden Purple
     struct GoldenPurple: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return GoldenPurple.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return GoldenPurple.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return GoldenPurple.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return GoldenPurple.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return GoldenPurple.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return GoldenPurple.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return GoldenPurple.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return GoldenPurple.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return GoldenPurple.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return GoldenPurple.v10
         }
         
-        static let v1 = UIColor("#f9f0ff")
-        static let v2 = UIColor("#efdbff")
-        static let v3 = UIColor("#d3adf7")
-        static let v4 = UIColor("#b37feb")
-        static let v5 = UIColor("#9254de")
-        static let v6 = UIColor("#722ed1")
-        static let v7 = UIColor("#531dab")
-        static let v8 = UIColor("#391085")
-        static let v9 = UIColor("#22075e")
-        static let v10 = UIColor("#120338")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// GoldenPurple v1 **#f9f0ff**
+        public static let v1 = UIColor("#f9f0ff")
+        /// GoldenPurple v2 **#efdbff**
+        public static let v2 = UIColor("#efdbff")
+        /// GoldenPurple v3 **#d3adf7**
+        public static let v3 = UIColor("#d3adf7")
+        /// GoldenPurple v4 **#b37feb**
+        public static let v4 = UIColor("#b37feb")
+        /// GoldenPurple v5 **#9254de**
+        public static let v5 = UIColor("#9254de")
+        /// GoldenPurple v6 **#722ed1**
+        public static let v6 = UIColor("#722ed1")
+        /// GoldenPurple v7 **#531dab**
+        public static let v7 = UIColor("#531dab")
+        /// GoldenPurple v8 **#391085**
+        public static let v8 = UIColor("#391085")
+        /// GoldenPurple v9 **#22075e**
+        public static let v9 = UIColor("#22075e")
+        /// GoldenPurple v10 **#120338**
+        public static let v10 = UIColor("#120338")
     }
     
     // MARK: - Magenta
     struct Magenta: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return Magenta.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return Magenta.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return Magenta.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return Magenta.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return Magenta.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return Magenta.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return Magenta.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return Magenta.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return Magenta.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return Magenta.v10
         }
         
-        static let v1 = UIColor("#fff0f6")
-        static let v2 = UIColor("#ffd6e7")
-        static let v3 = UIColor("#ffadd2")
-        static let v4 = UIColor("#ff85c0")
-        static let v5 = UIColor("#f759ab")
-        static let v6 = UIColor("#eb2f96")
-        static let v7 = UIColor("#c41d7f")
-        static let v8 = UIColor("#9e1068")
-        static let v9 = UIColor("#780650")
-        static let v10 = UIColor("#520339")
+        public var v11: UIColor? {
+            return nil
+        }
+        
+        public var v12: UIColor? {
+            return nil
+        }
+        
+        public var v13: UIColor? {
+            return nil
+        }
+        
+        /// Magenta v1 **#fff0f6**
+        public static let v1 = UIColor("#fff0f6")
+        /// Magenta v2 **#ffd6e7**
+        public static let v2 = UIColor("#ffd6e7")
+        /// Magenta v3 **#ffadd2**
+        public static let v3 = UIColor("#ffadd2")
+        /// Magenta v4 **#ff85c0**
+        public static let v4 = UIColor("#ff85c0")
+        /// Magenta v5 **#f759ab**
+        public static let v5 = UIColor("#f759ab")
+        /// Magenta v6 **#eb2f96**
+        public static let v6 = UIColor("#eb2f96")
+        /// Magenta v7 **#c41d7f**
+        public static let v7 = UIColor("#c41d7f")
+        /// Magenta v8 **#9e1068**
+        public static let v8 = UIColor("#9e1068")
+        /// Magenta v9 **#780650**
+        public static let v9 = UIColor("#780650")
+        /// Magenta v10 **#520339**
+        public static let v10 = UIColor("#520339")
     }
     
     // MARK: - Gray
     struct Gray: AntColorProtocol {
-        var v1: UIColor {
+        public var v1: UIColor {
             return Gray.v1
         }
                 
-        var v2: UIColor {
+        public var v2: UIColor {
             return Gray.v2
         }
 
-        var v3: UIColor {
+        public var v3: UIColor {
             return Gray.v3
         }
 
-        var v4: UIColor {
+        public var v4: UIColor {
             return Gray.v4
         }
 
-        var v5: UIColor {
+        public var v5: UIColor {
             return Gray.v5
         }
 
-        var v6: UIColor {
+        public var v6: UIColor {
             return Gray.v6
         }
 
-        var v7: UIColor {
+        public var v7: UIColor {
             return Gray.v7
         }
 
-        var v8: UIColor {
+        public var v8: UIColor {
             return Gray.v8
         }
 
-        var v9: UIColor {
+        public var v9: UIColor {
             return Gray.v9
         }
 
-        var v10: UIColor {
+        public var v10: UIColor {
             return Gray.v10
         }
         
-        static let v1 = UIColor("#ffffff")
-        static let v2 = UIColor("#fafafa")
-        static let v3 = UIColor("#f5f5f5")
-        static let v4 = UIColor("#e8e8e8")
-        static let v5 = UIColor("#d9d9d9")
-        static let v6 = UIColor("#bfbfbf")
-        static let v7 = UIColor("#8c8c8c")
-        static let v8 = UIColor("#595959")
-        static let v9 = UIColor("#262626")
-        static let v10 = UIColor("#000000")
+        public var v11: UIColor? {
+            return Gray.v11
+        }
+        
+        public var v12: UIColor? {
+            return Gray.v12
+        }
+        
+        public var v13: UIColor? {
+            return Gray.v13
+        }
+        
+        /// Gray v1 **#ffffff**
+        public static let v1 = UIColor("#ffffff")
+        /// Gray v2 **#fafafa**
+        public static let v2 = UIColor("#fafafa")
+        /// Gray v3 **#f5f5f5**
+        public static let v3 = UIColor("#f5f5f5")
+        /// Gray v4 **#f0f0f0**
+        public static let v4 = UIColor("#f0f0f0")
+        /// Gray v5 **#d9d9d9**
+        public static let v5 = UIColor("#d9d9d9")
+        /// Gray v6 **#bfbfbf**
+        public static let v6 = UIColor("#bfbfbf")
+        /// Gray v7 **#8c8c8c**
+        public static let v7 = UIColor("#8c8c8c")
+        /// Gray v8 **#595959**
+        public static let v8 = UIColor("#595959")
+        /// Gray v9 **#434343**
+        public static let v9 = UIColor("#434343")
+        /// Gray v10 **#262626**
+        public static let v10 = UIColor("#262626")
+        /// Gray v11 **#1f1f1f**
+        public static let v11 = UIColor("#1f1f1f")
+        /// Gray v12 **#141414**
+        public static let v12 = UIColor("#141414")
+        /// Gray v13 **#000000**
+        public static let v13 = UIColor("#000000")
+
     }
 }
