@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AntDesignColor: e3beed51c971e3aa76137f55d6f861f28cd18dfd
+  AntDesignColor: b43dd9167647422cb31650af04971b9dd70659ca
   UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
 
 PODFILE CHECKSUM: 5b6891e94eda5da5a9679e6fb4c1dff90fe57ba7

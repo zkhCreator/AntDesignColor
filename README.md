@@ -22,7 +22,7 @@ pod 'AntDesignColor'
 
 ## Author
 
-zkh90644@gmail.com, zkh90644@gmail.com
+zkhCreator, zkh90644@gmail.com
 
 ## License
 
