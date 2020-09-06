@@ -1,6 +1,6 @@
 {
   "name": "AntDesignColor",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "ant design color lib.",
   "description": "a color lib for ant design color.",
   "homepage": "https://github.com/zkhCreator/AntDesignColor",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zkhCreator/AntDesignColor.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
