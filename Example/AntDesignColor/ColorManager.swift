@@ -80,16 +80,16 @@ struct ColorManager {
         ]),
         
         ColorGroup(title: "Calendula Gold / 金盏花", desc: "活力、积极", colors: [
-            ColorItem(color: UIColor.Ant.SunsetOrange.v1, colorValue: "#fff7e6", colorName: "SunsetOrange.v1"),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v2, colorValue: "#ffe7ba", colorName: "SunsetOrange.v2"),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v3, colorValue: "#ffd591", colorName: "SunsetOrange.v3"),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v4, colorValue: "#ffc069", colorName: "SunsetOrange.v4"),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v5, colorValue: "#ffa940", colorName: "SunsetOrange.v5"),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v6, colorValue: "#fa8c16", colorName: "SunsetOrange.v6", fontColor: UIColor.white),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v7, colorValue: "#d46b08", colorName: "SunsetOrange.v7", fontColor: UIColor.white),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v8, colorValue: "#ad4e00", colorName: "SunsetOrange.v8", fontColor: UIColor.white),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v9, colorValue: "#873800", colorName: "SunsetOrange.v9", fontColor: UIColor.white),
-            ColorItem(color: UIColor.Ant.SunsetOrange.v10, colorValue: "#612500", colorName: "SunsetOrange.v10", fontColor: UIColor.white),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v1, colorValue: "#fffbe6", colorName: "CalendulaGold.v1"),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v2, colorValue: "#ffe7ba", colorName: "CalendulaGold.v2"),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v3, colorValue: "#ffd591", colorName: "CalendulaGold.v3"),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v4, colorValue: "#ffc069", colorName: "CalendulaGold.v4"),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v5, colorValue: "#ffa940", colorName: "CalendulaGold.v5"),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v6, colorValue: "#fa8c16", colorName: "CalendulaGold.v6", fontColor: UIColor.white),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v7, colorValue: "#d46b08", colorName: "CalendulaGold.v7", fontColor: UIColor.white),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v8, colorValue: "#ad4e00", colorName: "CalendulaGold.v8", fontColor: UIColor.white),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v9, colorValue: "#873800", colorName: "CalendulaGold.v9", fontColor: UIColor.white),
+            ColorItem(color: UIColor.Ant.CalendulaGold.v10, colorValue: "#612500", colorName: "CalendulaGold.v10", fontColor: UIColor.white),
         ]),
         
         

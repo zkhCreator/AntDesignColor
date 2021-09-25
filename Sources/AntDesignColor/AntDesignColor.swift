@@ -348,7 +348,7 @@ public extension Color.Ant {
         /// SunsetOrange v5 **#ffa940**
         public static let v5 = Color("#ffa940")
         /// SunsetOrange v6 **#d46b08**
-        public static let v6 = Color("#d46b08")
+        public static let v6 = Color("#fa8c16")
         /// SunsetOrange v7 **#d46b08**
         public static let v7 = Color("#d46b08")
         /// SunsetOrange v8 **#ad4e00**
