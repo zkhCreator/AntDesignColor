@@ -24,8 +24,8 @@ class ColorInfoTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        addSubview(colorName)
-        addSubview(colorHexName)
+        contentView.addSubview(colorName)
+        contentView.addSubview(colorHexName)
     }
     
     func update(with model:ColorItem) {
