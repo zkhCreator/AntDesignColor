@@ -34,6 +34,19 @@ public protocol AntColorProtocol {
     var v11: Color? { get }
     var v12: Color? { get }
     var v13: Color? { get }
+    var DMv1: Color { get }
+    var DMv2: Color { get }
+    var DMv3: Color { get }
+    var DMv4: Color { get }
+    var DMv5: Color { get }
+    var DMv6: Color { get }
+    var DMv7: Color { get }
+    var DMv8: Color { get }
+    var DMv9: Color { get }
+    var DMv10: Color { get }
+    var DMv11: Color? { get }
+    var DMv12: Color? { get }
+    var DMv13: Color? { get }
 }
 
 // MARK: - Hue
@@ -184,27 +197,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        /// Dust Red v1 **#fff1f0**
-        public static let v1 = Color("#fff1f0")
-        /// Dust Red v2 **#ffccc7**
-        public static let v2 = Color("#ffccc7")
-        /// Dust Red v3 **#ffa39e**
-        public static let v3 = Color("#ffa39e")
-        /// Dust Red v4 **#ff7875**
-        public static let v4 = Color("#ff7875")
-        /// Dust Red v5 **#ff4d4f**
-        public static let v5 = Color("#ff4d4f")
-        /// Dust Red v6 **#f5222d**
-        public static let v6 = Color("#f5222d")
-        /// Dust Red v7 **#cf1322**
-        public static let v7 = Color("#cf1322")
-        /// Dust Red v8 **#a8071a**
-        public static let v8 = Color("#a8071a")
-        /// Dust Red v9 **#820014**
-        public static let v9 = Color("#820014")
-        /// Dust Red v10 **#5c0011**
-        public static let v10 = Color("#5c0011")
 
+        public static let v1 = Color("#fff1f0")
+        public static let v2 = Color("#ffccc7")
+        public static let v3 = Color("#ffa39e")
+        public static let v4 = Color("#ff7875")
+        public static let v5 = Color("#ff4d4f")
+        public static let v6 = Color("#f5222d")
+        public static let v7 = Color("#cf1322")
+        public static let v8 = Color("#a8071a")
+        public static let v9 = Color("#820014")
+        public static let v10 = Color("#5c0011")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return DustRed.DMv1
+        }
+                
+        public var DMv2: Color {
+            return DustRed.DMv2
+        }
+
+        public var DMv3: Color {
+            return DustRed.DMv3
+        }
+
+        public var DMv4: Color {
+            return DustRed.DMv4
+        }
+
+        public var DMv5: Color {
+            return DustRed.DMv5
+        }
+
+        public var DMv6: Color {
+            return DustRed.DMv6
+        }
+
+        public var DMv7: Color {
+            return DustRed.DMv7
+        }
+
+        public var DMv8: Color {
+            return DustRed.DMv8
+        }
+
+        public var DMv9: Color {
+            return DustRed.DMv9
+        }
+
+        public var DMv10: Color {
+            return DustRed.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#2a1215")
+        public static let DMv2 = Color("#431418")
+        public static let DMv3 = Color("#58181c")
+        public static let DMv4 = Color("#791a1f")
+        public static let DMv5 = Color("#a61d24")
+        public static let DMv6 = Color("#d32029")
+        public static let DMv7 = Color("#e84749")
+        public static let DMv8 = Color("#f37370")
+        public static let DMv9 = Color("#f89f9a")
+        public static let DMv10 = Color("#fac8c3")
     }
     
     // MARK: - Volcano
@@ -261,26 +328,81 @@ public extension Color.Ant {
             return nil
         }
         
-        /// Volcano v1 **#fff2e8**
         public static let v1 = Color("#fff2e8")
-        /// Volcano v2 **#ffd8bf**
         public static let v2 = Color("#ffd8bf")
-        /// Volcano v3 **#ffbb96**
         public static let v3 = Color("#ffbb96")
-        /// Volcano v4 **#ff9c6e**
         public static let v4 = Color("#ff9c6e")
-        /// Volcano v5 **#ff7a45**
         public static let v5 = Color("#ff7a45")
-        /// Volcano v6 **#fa541c**
         public static let v6 = Color("#fa541c")
-        /// Volcano v7 **#d4380d**
         public static let v7 = Color("#d4380d")
-        /// Volcano v8 **#ad2102**
         public static let v8 = Color("#ad2102")
-        /// Volcano v9 **#871400**
         public static let v9 = Color("#871400")
-        /// Volcano v10 **#610b00**
         public static let v10 = Color("#610b00")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return Volcano.DMv1
+        }
+                
+        public var DMv2: Color {
+            return Volcano.DMv2
+        }
+
+        public var DMv3: Color {
+            return Volcano.DMv3
+        }
+
+        public var DMv4: Color {
+            return Volcano.DMv4
+        }
+
+        public var DMv5: Color {
+            return Volcano.DMv5
+        }
+
+        public var DMv6: Color {
+            return Volcano.DMv6
+        }
+
+        public var DMv7: Color {
+            return Volcano.DMv7
+        }
+
+        public var DMv8: Color {
+            return Volcano.DMv8
+        }
+
+        public var DMv9: Color {
+            return Volcano.DMv9
+        }
+
+        public var DMv10: Color {
+            return Volcano.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#2b1611")
+        public static let DMv2 = Color("#441d12")
+        public static let DMv3 = Color("#592716")
+        public static let DMv4 = Color("#7c3118")
+        public static let DMv5 = Color("#aa3e19")
+        public static let DMv6 = Color("#d84a1b")
+        public static let DMv7 = Color("#e87040")
+        public static let DMv8 = Color("#f3956a")
+        public static let DMv9 = Color("#f8b692")
+        public static let DMv10 = Color("#fad4bc")
+
     }
     
     // MARK: - Sunset Orange
@@ -336,27 +458,82 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// SunsetOrange v1 **#fff7e6**
+
         public static let v1 = Color("#fff7e6")
-        /// SunsetOrange v2 **#ffe7ba**
         public static let v2 = Color("#ffe7ba")
-        /// SunsetOrange v3 **#ffd591**
         public static let v3 = Color("#ffd591")
-        /// SunsetOrange v4 **#ffc069**
         public static let v4 = Color("#ffc069")
-        /// SunsetOrange v5 **#ffa940**
         public static let v5 = Color("#ffa940")
-        /// SunsetOrange v6 **#d46b08**
         public static let v6 = Color("#fa8c16")
-        /// SunsetOrange v7 **#d46b08**
         public static let v7 = Color("#d46b08")
-        /// SunsetOrange v8 **#ad4e00**
         public static let v8 = Color("#ad4e00")
-        /// SunsetOrange v9 **#873800**
         public static let v9 = Color("#873800")
-        /// SunsetOrange v10 **#612500**
         public static let v10 = Color("#612500")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return SunsetOrange.DMv1
+        }
+                
+        public var DMv2: Color {
+            return SunsetOrange.DMv2
+        }
+
+        public var DMv3: Color {
+            return SunsetOrange.DMv3
+        }
+
+        public var DMv4: Color {
+            return SunsetOrange.DMv4
+        }
+
+        public var DMv5: Color {
+            return SunsetOrange.DMv5
+        }
+
+        public var DMv6: Color {
+            return SunsetOrange.DMv6
+        }
+
+        public var DMv7: Color {
+            return SunsetOrange.DMv7
+        }
+
+        public var DMv8: Color {
+            return SunsetOrange.DMv8
+        }
+
+        public var DMv9: Color {
+            return SunsetOrange.DMv9
+        }
+
+        public var DMv10: Color {
+            return SunsetOrange.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#2b1d11")
+        public static let DMv2 = Color("#442a11")
+        public static let DMv3 = Color("#593815")
+        public static let DMv4 = Color("#7c4a15")
+        public static let DMv5 = Color("#aa6215")
+        public static let DMv6 = Color("#d87a16")
+        public static let DMv7 = Color("#e89a3c")
+        public static let DMv8 = Color("#f3b765")
+        public static let DMv9 = Color("#f8cf8d")
+        public static let DMv10 = Color("#fae3b7")
+
     }
     
     // MARK: - Calendula Gold
@@ -412,27 +589,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// CalendulaGold v1 **#fffbe6**
+
         public static let v1 = Color("#fffbe6")
-        /// CalendulaGold v2 **#fff1b8**
         public static let v2 = Color("#fff1b8")
-        /// CalendulaGold v3 **#ffe58f**
         public static let v3 = Color("#ffe58f")
-        /// CalendulaGold v4 **#ffd666**
         public static let v4 = Color("#ffd666")
-        /// CalendulaGold v5 **#ffc53d**
         public static let v5 = Color("#ffc53d")
-        /// CalendulaGold v6 **#faad14**
         public static let v6 = Color("#faad14")
-        /// CalendulaGold v7 **#d48806**
         public static let v7 = Color("#d48806")
-        /// CalendulaGold v8 **#ad6800**
         public static let v8 = Color("#ad6800")
-        /// CalendulaGold v9 **#874d00**
         public static let v9 = Color("#874d00")
-        /// CalendulaGold v10 **#613400**
         public static let v10 = Color("#613400")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return CalendulaGold.DMv1
+        }
+                
+        public var DMv2: Color {
+            return CalendulaGold.DMv2
+        }
+
+        public var DMv3: Color {
+            return CalendulaGold.DMv3
+        }
+
+        public var DMv4: Color {
+            return CalendulaGold.DMv4
+        }
+
+        public var DMv5: Color {
+            return CalendulaGold.DMv5
+        }
+
+        public var DMv6: Color {
+            return CalendulaGold.DMv6
+        }
+
+        public var DMv7: Color {
+            return CalendulaGold.DMv7
+        }
+
+        public var DMv8: Color {
+            return CalendulaGold.DMv8
+        }
+
+        public var DMv9: Color {
+            return CalendulaGold.DMv9
+        }
+
+        public var DMv10: Color {
+            return CalendulaGold.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#2b2111")
+        public static let DMv2 = Color("#443111")
+        public static let DMv3 = Color("#594214")
+        public static let DMv4 = Color("#7c5914")
+        public static let DMv5 = Color("#aa7714")
+        public static let DMv6 = Color("#d89614")
+        public static let DMv7 = Color("#e8b339")
+        public static let DMv8 = Color("#f3cc62")
+        public static let DMv9 = Color("#f8df8b")
+        public static let DMv10 = Color("#faedb5")
     }
     
     // MARK: - Sunrise Yellow
@@ -488,27 +719,82 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// SunriseYellow v1 **#feffe6**
+
         public static let v1 = Color("#feffe6")
-        /// SunriseYellow v2 **#ffffb8**
         public static let v2 = Color("#ffffb8")
-        /// SunriseYellow v3 **#fffb8f**
         public static let v3 = Color("#fffb8f")
-        /// SunriseYellow v4 **#fff566**
         public static let v4 = Color("#fff566")
-        /// SunriseYellow v5 **#ffec3d**
         public static let v5 = Color("#ffec3d")
-        /// SunriseYellow v6 **#fadb14**
         public static let v6 = Color("#fadb14")
-        /// SunriseYellow v7 **#d4b106**
         public static let v7 = Color("#d4b106")
-        /// SunriseYellow v8 **#ad8b00**
         public static let v8 = Color("#ad8b00")
-        /// SunriseYellow v9 **#876800**
         public static let v9 = Color("#876800")
-        /// SunriseYellow v10 **#614700**
         public static let v10 = Color("#614700")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return SunriseYellow.DMv1
+        }
+                
+        public var DMv2: Color {
+            return SunriseYellow.DMv2
+        }
+
+        public var DMv3: Color {
+            return SunriseYellow.DMv3
+        }
+
+        public var DMv4: Color {
+            return SunriseYellow.DMv4
+        }
+
+        public var DMv5: Color {
+            return SunriseYellow.DMv5
+        }
+
+        public var DMv6: Color {
+            return SunriseYellow.DMv6
+        }
+
+        public var DMv7: Color {
+            return SunriseYellow.DMv7
+        }
+
+        public var DMv8: Color {
+            return SunriseYellow.DMv8
+        }
+
+        public var DMv9: Color {
+            return SunriseYellow.DMv9
+        }
+
+        public var DMv10: Color {
+            return SunriseYellow.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#2b2611")
+        public static let DMv2 = Color("#443b11")
+        public static let DMv3 = Color("#595014")
+        public static let DMv4 = Color("#7c6e14")
+        public static let DMv5 = Color("#aa9514")
+        public static let DMv6 = Color("#d8bd14")
+        public static let DMv7 = Color("#e8d639")
+        public static let DMv8 = Color("#f3ea62")
+        public static let DMv9 = Color("#f8f48b")
+        public static let DMv10 = Color("#fafab5")
+
     }
     
     // MARK: - Lime
@@ -564,27 +850,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// Lime v1 **#fcffe6**
+
         public static let v1 = Color("#fcffe6")
-        /// Lime v2 **#f4ffb8**
         public static let v2 = Color("#f4ffb8")
-        /// Lime v3 **#eaff8f**
         public static let v3 = Color("#eaff8f")
-        /// Lime v4 **#d3f261**
         public static let v4 = Color("#d3f261")
-        /// Lime v5 **#bae637**
         public static let v5 = Color("#bae637")
-        /// Lime v6 **#a0d911**
         public static let v6 = Color("#a0d911")
-        /// Lime v7 **#7cb305**
         public static let v7 = Color("#7cb305")
-        /// Lime v8 **#5b8c00**
         public static let v8 = Color("#5b8c00")
-        /// Lime v9 **#3f6600**
         public static let v9 = Color("#3f6600")
-        /// Lime v10 **#254000**
         public static let v10 = Color("#254000")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return Lime.DMv1
+        }
+                
+        public var DMv2: Color {
+            return Lime.DMv2
+        }
+
+        public var DMv3: Color {
+            return Lime.DMv3
+        }
+
+        public var DMv4: Color {
+            return Lime.DMv4
+        }
+
+        public var DMv5: Color {
+            return Lime.DMv5
+        }
+
+        public var DMv6: Color {
+            return Lime.DMv6
+        }
+
+        public var DMv7: Color {
+            return Lime.DMv7
+        }
+
+        public var DMv8: Color {
+            return Lime.DMv8
+        }
+
+        public var DMv9: Color {
+            return Lime.DMv9
+        }
+
+        public var DMv10: Color {
+            return Lime.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#1f2611")
+        public static let DMv2 = Color("#2e3c10")
+        public static let DMv3 = Color("#3e4f13")
+        public static let DMv4 = Color("#536d13")
+        public static let DMv5 = Color("#6f9412")
+        public static let DMv6 = Color("#8bbb11")
+        public static let DMv7 = Color("#a9d134")
+        public static let DMv8 = Color("#c9e75d")
+        public static let DMv9 = Color("#e4f88b")
+        public static let DMv10 = Color("#f0fab5")
     }
     
     // MARK: - Polar Green
@@ -640,27 +980,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// PolarGreen v1 **#f6ffed**
+
         public static let v1 = Color("#f6ffed")
-        /// PolarGreen v2 **#d9f7be**
         public static let v2 = Color("#d9f7be")
-        /// PolarGreen v3 **#b7eb8f**
         public static let v3 = Color("#b7eb8f")
-        /// PolarGreen v4 **#95de64**
         public static let v4 = Color("#95de64")
-        /// PolarGreen v5 **#73d13d**
         public static let v5 = Color("#73d13d")
-        /// PolarGreen v6 **#52c41a**
         public static let v6 = Color("#52c41a")
-        /// PolarGreen v7 **#389e0d**
         public static let v7 = Color("#389e0d")
-        /// PolarGreen v8 **#237804**
         public static let v8 = Color("#237804")
-        /// PolarGreen v9 **#135200**
         public static let v9 = Color("#135200")
-        /// PolarGreen v10 **#092b00**
         public static let v10 = Color("#092b00")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return PolarGreen.DMv1
+        }
+                
+        public var DMv2: Color {
+            return PolarGreen.DMv2
+        }
+
+        public var DMv3: Color {
+            return PolarGreen.DMv3
+        }
+
+        public var DMv4: Color {
+            return PolarGreen.DMv4
+        }
+
+        public var DMv5: Color {
+            return PolarGreen.DMv5
+        }
+
+        public var DMv6: Color {
+            return PolarGreen.DMv6
+        }
+
+        public var DMv7: Color {
+            return PolarGreen.DMv7
+        }
+
+        public var DMv8: Color {
+            return PolarGreen.DMv8
+        }
+
+        public var DMv9: Color {
+            return PolarGreen.DMv9
+        }
+
+        public var DMv10: Color {
+            return PolarGreen.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#162312")
+        public static let DMv2 = Color("#1d3712")
+        public static let DMv3 = Color("#274916")
+        public static let DMv4 = Color("#306317")
+        public static let DMv5 = Color("#3c8618")
+        public static let DMv6 = Color("#49aa19")
+        public static let DMv7 = Color("#6abe39")
+        public static let DMv8 = Color("#8fd460")
+        public static let DMv9 = Color("#b2e58b")
+        public static let DMv10 = Color("#d5f2bb")
     }
     
     // MARK: - Cyan
@@ -716,27 +1110,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// Cyan v1 **#e6fffb**
+
         public static let v1 = Color("#e6fffb")
-        /// Cyan v2 **#b5f5ec**
         public static let v2 = Color("#b5f5ec")
-        /// Cyan v3 **#87e8de**
         public static let v3 = Color("#87e8de")
-        /// Cyan v4 **#5cdbd3**
         public static let v4 = Color("#5cdbd3")
-        /// Cyan v5 **#36cfc9**
         public static let v5 = Color("#36cfc9")
-        /// Cyan v6 **#13c2c2**
         public static let v6 = Color("#13c2c2")
-        /// Cyan v7 **#08979c**
         public static let v7 = Color("#08979c")
-        /// Cyan v8 **#006d75**
         public static let v8 = Color("#006d75")
-        /// Cyan v9 **#00474f**
         public static let v9 = Color("#00474f")
-        /// Cyan v10 **#002329**
         public static let v10 = Color("#002329")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return Cyan.DMv1
+        }
+                
+        public var DMv2: Color {
+            return Cyan.DMv2
+        }
+
+        public var DMv3: Color {
+            return Cyan.DMv3
+        }
+
+        public var DMv4: Color {
+            return Cyan.DMv4
+        }
+
+        public var DMv5: Color {
+            return Cyan.DMv5
+        }
+
+        public var DMv6: Color {
+            return Cyan.DMv6
+        }
+
+        public var DMv7: Color {
+            return Cyan.DMv7
+        }
+
+        public var DMv8: Color {
+            return Cyan.DMv8
+        }
+
+        public var DMv9: Color {
+            return Cyan.DMv9
+        }
+
+        public var DMv10: Color {
+            return Cyan.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#112123")
+        public static let DMv2 = Color("#113536")
+        public static let DMv3 = Color("#144848")
+        public static let DMv4 = Color("#146262")
+        public static let DMv5 = Color("#138585")
+        public static let DMv6 = Color("#13a8a8")
+        public static let DMv7 = Color("#33bcb7")
+        public static let DMv8 = Color("#58d1c9")
+        public static let DMv9 = Color("#84e2d8")
+        public static let DMv10 = Color("#b2f1e8")
     }
     
     // MARK: - Daybreak Blue
@@ -792,27 +1240,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// DaybreakBlue v1 **#e6f7ff**
+
         public static let v1 = Color("#e6f7ff")
-        /// DaybreakBlue v2 **#bae7ff**
         public static let v2 = Color("#bae7ff")
-        /// DaybreakBlue v3 **#91d5ff**
         public static let v3 = Color("#91d5ff")
-        /// DaybreakBlue v4 **#69c0ff**
         public static let v4 = Color("#69c0ff")
-        /// DaybreakBlue v5 **#40a9ff**
         public static let v5 = Color("#40a9ff")
-        /// DaybreakBlue v6 **#1890ff**
         public static let v6 = Color("#1890ff")
-        /// DaybreakBlue v7 **#096dd9**
         public static let v7 = Color("#096dd9")
-        /// DaybreakBlue v8 **#0050b3**
         public static let v8 = Color("#0050b3")
-        /// DaybreakBlue v9 **#003a8c**
         public static let v9 = Color("#003a8c")
-        /// DaybreakBlue v10 **#002766**
         public static let v10 = Color("#002766")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return DaybreakBlue.DMv1
+        }
+                
+        public var DMv2: Color {
+            return DaybreakBlue.DMv2
+        }
+
+        public var DMv3: Color {
+            return DaybreakBlue.DMv3
+        }
+
+        public var DMv4: Color {
+            return DaybreakBlue.DMv4
+        }
+
+        public var DMv5: Color {
+            return DaybreakBlue.DMv5
+        }
+
+        public var DMv6: Color {
+            return DaybreakBlue.DMv6
+        }
+
+        public var DMv7: Color {
+            return DaybreakBlue.DMv7
+        }
+
+        public var DMv8: Color {
+            return DaybreakBlue.DMv8
+        }
+
+        public var DMv9: Color {
+            return DaybreakBlue.DMv9
+        }
+
+        public var DMv10: Color {
+            return DaybreakBlue.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#111d2c")
+        public static let DMv2 = Color("#112a45")
+        public static let DMv3 = Color("#15395b")
+        public static let DMv4 = Color("#164c7e")
+        public static let DMv5 = Color("#1765ad")
+        public static let DMv6 = Color("#177ddc")
+        public static let DMv7 = Color("#3c9ae8")
+        public static let DMv8 = Color("#65b7f3")
+        public static let DMv9 = Color("#8dcff8")
+        public static let DMv10 = Color("#b7e3fa")
     }
     
     // MARK: - Geek Blue
@@ -868,27 +1370,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// GeekBlue v1 **#f0f5ff**
+
         public static let v1 = Color("#f0f5ff")
-        /// GeekBlue v2 **#d6e4ff**
         public static let v2 = Color("#d6e4ff")
-        /// GeekBlue v3 **#adc6ff**
         public static let v3 = Color("#adc6ff")
-        /// GeekBlue v4 **#85a5ff**
         public static let v4 = Color("#85a5ff")
-        /// GeekBlue v5 **#597ef7**
         public static let v5 = Color("#597ef7")
-        /// GeekBlue v6 **#2f54eb**
         public static let v6 = Color("#2f54eb")
-        /// GeekBlue v7 **#1d39c4**
         public static let v7 = Color("#1d39c4")
-        /// GeekBlue v8 **#10239e**
         public static let v8 = Color("#10239e")
-        /// GeekBlue v9 **#061178**
         public static let v9 = Color("#061178")
-        /// GeekBlue v10 **#030852**
         public static let v10 = Color("#030852")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return GeekBlue.DMv1
+        }
+                
+        public var DMv2: Color {
+            return GeekBlue.DMv2
+        }
+
+        public var DMv3: Color {
+            return GeekBlue.DMv3
+        }
+
+        public var DMv4: Color {
+            return GeekBlue.DMv4
+        }
+
+        public var DMv5: Color {
+            return GeekBlue.DMv5
+        }
+
+        public var DMv6: Color {
+            return GeekBlue.DMv6
+        }
+
+        public var DMv7: Color {
+            return GeekBlue.DMv7
+        }
+
+        public var DMv8: Color {
+            return GeekBlue.DMv8
+        }
+
+        public var DMv9: Color {
+            return GeekBlue.DMv9
+        }
+
+        public var DMv10: Color {
+            return GeekBlue.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#131629")
+        public static let DMv2 = Color("#161d40")
+        public static let DMv3 = Color("#1c2755")
+        public static let DMv4 = Color("#203175")
+        public static let DMv5 = Color("#263ea0")
+        public static let DMv6 = Color("#2b4acb")
+        public static let DMv7 = Color("#5273e0")
+        public static let DMv8 = Color("#7f9ef3")
+        public static let DMv9 = Color("#a8c1f8")
+        public static let DMv10 = Color("#d2e0fa")
     }
     
     // MARK: - Golden Purple
@@ -944,27 +1500,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// GoldenPurple v1 **#f9f0ff**
+
         public static let v1 = Color("#f9f0ff")
-        /// GoldenPurple v2 **#efdbff**
         public static let v2 = Color("#efdbff")
-        /// GoldenPurple v3 **#d3adf7**
         public static let v3 = Color("#d3adf7")
-        /// GoldenPurple v4 **#b37feb**
         public static let v4 = Color("#b37feb")
-        /// GoldenPurple v5 **#9254de**
         public static let v5 = Color("#9254de")
-        /// GoldenPurple v6 **#722ed1**
         public static let v6 = Color("#722ed1")
-        /// GoldenPurple v7 **#531dab**
         public static let v7 = Color("#531dab")
-        /// GoldenPurple v8 **#391085**
         public static let v8 = Color("#391085")
-        /// GoldenPurple v9 **#22075e**
         public static let v9 = Color("#22075e")
-        /// GoldenPurple v10 **#120338**
         public static let v10 = Color("#120338")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return GoldenPurple.DMv1
+        }
+                
+        public var DMv2: Color {
+            return GoldenPurple.DMv2
+        }
+
+        public var DMv3: Color {
+            return GoldenPurple.DMv3
+        }
+
+        public var DMv4: Color {
+            return GoldenPurple.DMv4
+        }
+
+        public var DMv5: Color {
+            return GoldenPurple.DMv5
+        }
+
+        public var DMv6: Color {
+            return GoldenPurple.DMv6
+        }
+
+        public var DMv7: Color {
+            return GoldenPurple.DMv7
+        }
+
+        public var DMv8: Color {
+            return GoldenPurple.DMv8
+        }
+
+        public var DMv9: Color {
+            return GoldenPurple.DMv9
+        }
+
+        public var DMv10: Color {
+            return GoldenPurple.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#1a1325")
+        public static let DMv2 = Color("#24163a")
+        public static let DMv3 = Color("#301c4d")
+        public static let DMv4 = Color("#3e2069")
+        public static let DMv5 = Color("#51258f")
+        public static let DMv6 = Color("#642ab5")
+        public static let DMv7 = Color("#854eca")
+        public static let DMv8 = Color("#ab7ae0")
+        public static let DMv9 = Color("#cda8f0")
+        public static let DMv10 = Color("#ebd7fa")
     }
     
     // MARK: - Magenta
@@ -1020,27 +1630,81 @@ public extension Color.Ant {
         public var v13: Color? {
             return nil
         }
-        
-        /// Magenta v1 **#fff0f6**
+
         public static let v1 = Color("#fff0f6")
-        /// Magenta v2 **#ffd6e7**
         public static let v2 = Color("#ffd6e7")
-        /// Magenta v3 **#ffadd2**
         public static let v3 = Color("#ffadd2")
-        /// Magenta v4 **#ff85c0**
         public static let v4 = Color("#ff85c0")
-        /// Magenta v5 **#f759ab**
         public static let v5 = Color("#f759ab")
-        /// Magenta v6 **#eb2f96**
         public static let v6 = Color("#eb2f96")
-        /// Magenta v7 **#c41d7f**
         public static let v7 = Color("#c41d7f")
-        /// Magenta v8 **#9e1068**
         public static let v8 = Color("#9e1068")
-        /// Magenta v9 **#780650**
         public static let v9 = Color("#780650")
-        /// Magenta v10 **#520339**
         public static let v10 = Color("#520339")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return Magenta.DMv1
+        }
+                
+        public var DMv2: Color {
+            return Magenta.DMv2
+        }
+
+        public var DMv3: Color {
+            return Magenta.DMv3
+        }
+
+        public var DMv4: Color {
+            return Magenta.DMv4
+        }
+
+        public var DMv5: Color {
+            return Magenta.DMv5
+        }
+
+        public var DMv6: Color {
+            return Magenta.DMv6
+        }
+
+        public var DMv7: Color {
+            return Magenta.DMv7
+        }
+
+        public var DMv8: Color {
+            return Magenta.DMv8
+        }
+
+        public var DMv9: Color {
+            return Magenta.DMv9
+        }
+
+        public var DMv10: Color {
+            return Magenta.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return nil
+        }
+        
+        public var DMv12: Color? {
+            return nil
+        }
+        
+        public var DMv13: Color? {
+            return nil
+        }
+        
+        public static let DMv1 = Color("#291321")
+        public static let DMv2 = Color("#40162f")
+        public static let DMv3 = Color("#551c3b")
+        public static let DMv4 = Color("#75204f")
+        public static let DMv5 = Color("#a02669")
+        public static let DMv6 = Color("#cb2b83")
+        public static let DMv7 = Color("#e0529c")
+        public static let DMv8 = Color("#f37fb7")
+        public static let DMv9 = Color("#f8a8cc")
+        public static let DMv10 = Color("#fad2e3")
     }
     
     // MARK: - Gray
@@ -1096,33 +1760,86 @@ public extension Color.Ant {
         public var v13: Color? {
             return Gray.v13
         }
-        
-        /// Gray v1 **#ffffff**
-        public static let v1 = Color("#ffffff")
-        /// Gray v2 **#fafafa**
-        public static let v2 = Color("#fafafa")
-        /// Gray v3 **#f5f5f5**
-        public static let v3 = Color("#f5f5f5")
-        /// Gray v4 **#f0f0f0**
-        public static let v4 = Color("#f0f0f0")
-        /// Gray v5 **#d9d9d9**
-        public static let v5 = Color("#d9d9d9")
-        /// Gray v6 **#bfbfbf**
-        public static let v6 = Color("#bfbfbf")
-        /// Gray v7 **#8c8c8c**
-        public static let v7 = Color("#8c8c8c")
-        /// Gray v8 **#595959**
-        public static let v8 = Color("#595959")
-        /// Gray v9 **#434343**
-        public static let v9 = Color("#434343")
-        /// Gray v10 **#262626**
-        public static let v10 = Color("#262626")
-        /// Gray v11 **#1f1f1f**
-        public static let v11 = Color("#1f1f1f")
-        /// Gray v12 **#141414**
-        public static let v12 = Color("#141414")
-        /// Gray v13 **#000000**
-        public static let v13 = Color("#000000")
 
+        public static let v1 = Color("#ffffff")
+        public static let v2 = Color("#fafafa")
+        public static let v3 = Color("#f5f5f5")
+        public static let v4 = Color("#f0f0f0")
+        public static let v5 = Color("#d9d9d9")
+        public static let v6 = Color("#bfbfbf")
+        public static let v7 = Color("#8c8c8c")
+        public static let v8 = Color("#595959")
+        public static let v9 = Color("#434343")
+        public static let v10 = Color("#262626")
+        public static let v11 = Color("#1f1f1f")
+        public static let v12 = Color("#141414")
+        public static let v13 = Color("#000000")
+        
+        /// DARK MODE COLOR
+        public var DMv1: Color {
+            return Gray.DMv1
+        }
+                
+        public var DMv2: Color {
+            return Gray.DMv2
+        }
+
+        public var DMv3: Color {
+            return Gray.DMv3
+        }
+
+        public var DMv4: Color {
+            return Gray.DMv4
+        }
+
+        public var DMv5: Color {
+            return Gray.DMv5
+        }
+
+        public var DMv6: Color {
+            return Gray.DMv6
+        }
+
+        public var DMv7: Color {
+            return Gray.DMv7
+        }
+
+        public var DMv8: Color {
+            return Gray.DMv8
+        }
+
+        public var DMv9: Color {
+            return Gray.DMv9
+        }
+
+        public var DMv10: Color {
+            return Gray.DMv10
+        }
+        
+        public var DMv11: Color? {
+            return Gray.DMv11
+        }
+        
+        public var DMv12: Color? {
+            return Gray.DMv12
+        }
+        
+        public var DMv13: Color? {
+            return Gray.DMv13
+        }
+        
+        public static let DMv1 = Color("#ffffff")
+        public static let DMv2 = Color("#fafafa")
+        public static let DMv3 = Color("#f5f5f5")
+        public static let DMv4 = Color("#f0f0f0")
+        public static let DMv5 = Color("#d9d9d9")
+        public static let DMv6 = Color("#bfbfbf")
+        public static let DMv7 = Color("#8c8c8c")
+        public static let DMv8 = Color("#595959")
+        public static let DMv9 = Color("#434343")
+        public static let DMv10 = Color("#262626")
+        public static let DMv11 = Color("#1f1f1f")
+        public static let DMv12 = Color("#141414")
+        public static let DMv13 = Color("#000000")
     }
 }
