@@ -117,7 +117,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -155,7 +155,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -194,7 +194,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -233,7 +233,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -271,7 +271,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -310,7 +310,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -348,7 +348,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -386,7 +386,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -424,7 +424,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -462,7 +462,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -500,7 +500,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
@@ -538,7 +538,7 @@ public extension Color.Ant {
         
         /// AUTO TRANSFORM Light/Dark Color
         public static let LDv1 = Color.colors(light: v1, dark: DMv1)
-        public static let LDv2 = Color.colors(light: v2, dark: DMv3)
+        public static let LDv2 = Color.colors(light: v2, dark: DMv2)
         public static let LDv3 = Color.colors(light: v3, dark: DMv3)
         public static let LDv4 = Color.colors(light: v4, dark: DMv4)
         public static let LDv5 = Color.colors(light: v5, dark: DMv5)
