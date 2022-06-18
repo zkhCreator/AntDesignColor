@@ -6,18 +6,12 @@
 //
 
 import UIKit
-import UIColor_Hex_Swift
+import UIColorHexSwift
 
 // Usage 1: Color.Ant.DustRed.v1 -> Color?
 // Usage 2: Color.Ant.color(.DustRed).v1 -> Color?
 
-#if os(macOS)
-import Cocoa
-public typealias Color = NSColor
-#else
-import UIKit
 public typealias Color = UIColor
-#endif
 
 
 public protocol AntColorProtocol {
@@ -72,7 +66,7 @@ public extension Color {
     
     static func colors(light: Color, dark: Color) -> Color {
         if #available(iOS 13.0, *) {
-            return UIColor { (traitCollection: UITraitCollection) -> UIColor in
+            return Color { (traitCollection: UITraitCollection) -> Color in
                 switch traitCollection.userInterfaceStyle {
                 case .unspecified, .light:
                     return light

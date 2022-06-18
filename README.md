@@ -13,12 +13,18 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### Cocoapod
+
 AntDesignColor is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'AntDesignColor'
 ```
+
+### Swift Package Manager
+
+To add a package dependency to your Xcode project, select File > Swift Packages > Add Package Dependency and enter https://github.com/zkhCreator/AntDesignColor to the text field, set version to Major 2.0.0
 
 ## Author
 

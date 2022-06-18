@@ -1,5 +1,9 @@
 # 版本迭代
 
+## 2.0.2
+
+- fix swift package dependency
+
 ## 2.0.1
 
 - fix LDv2 and LDv3 dark mode color
