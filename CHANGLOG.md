@@ -2,7 +2,8 @@
 
 ## 2.0.2
 
-- fix swift package dependency
+- Because of HEX Color has different name in spm and pod, Copy the resource to the SDK
+- support SPM
 
 ## 2.0.1
 

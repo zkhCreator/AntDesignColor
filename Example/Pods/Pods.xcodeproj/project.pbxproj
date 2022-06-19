@@ -7,171 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		069CFE8419DE0E5CC21B1648D6738A2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92F3DA49DE31398ABA742904B81ED49 /* UIKit.framework */; };
-		0A059F273FC7B52FF64B248947187C42 /* AntDesignColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C817D0178FFBF97B753950340A1CE4 /* AntDesignColor.swift */; };
-		13B0494165A6D7DBE794424EFEA2A5B5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77B82FC34CEC0425AB6DA491C241199 /* UIColorExtension.swift */; };
-		1498390D8E4F41ED7247F33D73A07E69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F7594B9E0DA5BF04914FBBFA8138A /* Foundation.framework */; };
-		178D1C8ECBBFAFAF2187A159FFDC6261 /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC409DD9BB2B1287F4CE832DCF55985 /* UIColorInputError.swift */; };
-		1C8EC3F190F6267C7121EFBC43B1D456 /* Pods-AntDesignColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C1C03E0B8778B58A3415C67BB6C9E /* Pods-AntDesignColor_Example-dummy.m */; };
-		26CFF743A0AC7C2AAFE074B0DDA8BB19 /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2E20C27B4D7AA1A2EFE4384A376295 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		286E49002EFA7F2ED78F56E51F30751A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922CCF8F6A058337E4E4536A10CF166 /* StringExtension.swift */; };
-		3FBEE5B8C717DDD01C865969CB9F261C /* AntDesignColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F671A9B064FB7618A9CFC979C3EFAE19 /* AntDesignColor-dummy.m */; };
-		485B1543F0F3E704AFECA830A2489912 /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C4178A70630E6FD564C906C1805F87 /* UIColor_Hex_Swift.framework */; };
-		516113FCFA4E54AF672129BFB34457CA /* Pods-AntDesignColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7081942AB3B6D775A47933B258373F5 /* Pods-AntDesignColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5799C46C73330EDF470EC32DDCF22DCB /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C2B64E8C8E8A1C6DB83549A1BBDAC0 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58C636BCF700E868343A0F27E0BF4130 /* AntDesignColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DE9E6074B6525BF88782BFB0F06EB1 /* AntDesignColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D7FFAD6665E43A3F8F3DE9B83CD319D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F7594B9E0DA5BF04914FBBFA8138A /* Foundation.framework */; };
-		AE8A6BCEC5BBE9E6EB6A212C33302628 /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0524CF1E14EC0B5BB017E5295DCABE60 /* UIColor_Hex_Swift-dummy.m */; };
-		C2E7CB209821BB6CA1D63D4E701C8853 /* Pods-AntDesignColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AA466C9AF6F3743B4BA5131A4F611C /* Pods-AntDesignColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7ADDCB39627F9A28264BB16DAB9AE0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F7594B9E0DA5BF04914FBBFA8138A /* Foundation.framework */; };
-		E8B3182AE68BFF56876F50D89AF994D3 /* Pods-AntDesignColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B43B369390097101988AFC415E8A9 /* Pods-AntDesignColor_Tests-dummy.m */; };
-		FDF3EFE94D4C26C5B2AA1583958D2C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F7594B9E0DA5BF04914FBBFA8138A /* Foundation.framework */; };
+		25F963EDFE8D159EA251EFA4810779E0 /* AntDesignColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9B32C0A224748926E965DCCC059DB7 /* AntDesignColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32036FD47F7C5533641642EFFBC2C131 /* AntDesignColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082705C4DF003BC356511C7B954C5429 /* AntDesignColor.swift */; };
+		382C084766062E248D78FD9C11209F23 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED9F177BD5FEEBB45DA9162649734D6 /* StringExtension.swift */; };
+		3A7C4EF6E3DEE63BD2086AA2FBE3A900 /* Pods-AntDesignColor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3AA466C9AF6F3743B4BA5131A4F611C /* Pods-AntDesignColor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7211F566763D45CC77281E23AD060D84 /* PlatformColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8CEC0C8599E11D4BC45462A059E92 /* PlatformColorExtension.swift */; };
+		7D554C4090A2AAE9EA22929DCB0F823F /* AntDesignColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 342D122E1F9AA71CD04FD17354A880B9 /* AntDesignColor-dummy.m */; };
+		8074DD87705CCF92D3538D1C51EA22F4 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D666EFE29982B71A4724A0983F47DD36 /* ColorExtension.swift */; };
+		B3D4BB579B5C89DFBA1766292DFE5DC7 /* Pods-AntDesignColor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944B43B369390097101988AFC415E8A9 /* Pods-AntDesignColor_Tests-dummy.m */; };
+		B55A3F854F8C9C50B52EF2DC65AD8778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C368191140704E20E5254C40AB54E328 /* Pods-AntDesignColor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7081942AB3B6D775A47933B258373F5 /* Pods-AntDesignColor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6053FCCBF97DD6705E77F31840BCFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DCC40D534838592DB0DFC5E52BD66B10 /* Pods-AntDesignColor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 307C1C03E0B8778B58A3415C67BB6C9E /* Pods-AntDesignColor_Example-dummy.m */; };
+		E5549677F9880AAC42675E6BDCDB59FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FDEE10841FF3984C57B8352F3E3F43AB /* PlatformColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB23BE8F09F24CE43AD607948416694D /* PlatformColorInputError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07BD8734CAF66C51B511EC669B8E2AAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
-			remoteInfo = UIColor_Hex_Swift;
-		};
-		7A030F1252EA6E73BE4E737B192CDAA5 /* PBXContainerItemProxy */ = {
+		7942B9439D52A48E96B59B6919AD6388 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6290068312F1BDC0455EF7C1BD259987;
 			remoteInfo = AntDesignColor;
 		};
-		A2C4F21CD437BE33277996C8D78F5379 /* PBXContainerItemProxy */ = {
+		925CAF4DB1D34286014BF7D6B133015A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D300B9DC544A9A43D021E59CB2055962;
 			remoteInfo = "Pods-AntDesignColor_Example";
 		};
-		F5D2673E2DE52EDDC310D400E30672DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0CA3B0841360687C00D0E48D3E4C1B9;
-			remoteInfo = UIColor_Hex_Swift;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03591FA709468C91F780DDA80D341E99 /* UIColor_Hex_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.release.xcconfig; sourceTree = "<group>"; };
 		037695DC3FE312D166E6F265FD75B311 /* Pods-AntDesignColor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AntDesignColor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0524CF1E14EC0B5BB017E5295DCABE60 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		044CE0CE2F2C8DB631F4420A9C81C199 /* AntDesignColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AntDesignColor-prefix.pch"; sourceTree = "<group>"; };
 		076410F426D0A09D1ACC82D10A0D11CD /* Pods-AntDesignColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AntDesignColor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		082705C4DF003BC356511C7B954C5429 /* AntDesignColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AntDesignColor.swift; path = Sources/AntDesignColor/AntDesignColor.swift; sourceTree = "<group>"; };
+		08F84CF05523B279FF5588E768CE8EA0 /* AntDesignColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AntDesignColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A8A0E3E49C79DD1F5A23B1C22491B11 /* Pods-AntDesignColor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AntDesignColor_Tests.modulemap"; sourceTree = "<group>"; };
-		1BDC5D3D40B130E6BE8AECA6167D5054 /* AntDesignColor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AntDesignColor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2219D6536038013A5F4D9649EB88DE3F /* AntDesignColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AntDesignColor.modulemap; sourceTree = "<group>"; };
-		2922CCF8F6A058337E4E4536A10CF166 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
 		307C1C03E0B8778B58A3415C67BB6C9E /* Pods-AntDesignColor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AntDesignColor_Example-dummy.m"; sourceTree = "<group>"; };
+		342D122E1F9AA71CD04FD17354A880B9 /* AntDesignColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AntDesignColor-dummy.m"; sourceTree = "<group>"; };
+		34720BE9C0F32DAE9D3892B47E6B0E39 /* AntDesignColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntDesignColor.release.xcconfig; sourceTree = "<group>"; };
 		37634A8CB8B6CD72520C24C05EBF69DB /* Pods-AntDesignColor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AntDesignColor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		39C2B64E8C8E8A1C6DB83549A1BBDAC0 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
-		44C817D0178FFBF97B753950340A1CE4 /* AntDesignColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AntDesignColor.swift; path = Sources/AntDesignColor/AntDesignColor.swift; sourceTree = "<group>"; };
-		4614D0B7A61440B60C8FF61199B0BEB1 /* AntDesignColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AntDesignColor.framework; path = AntDesignColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4614D0B7A61440B60C8FF61199B0BEB1 /* AntDesignColor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AntDesignColor; path = AntDesignColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F51FECA59008EDE2068D7F14FED61D /* Pods-AntDesignColor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AntDesignColor_Example-Info.plist"; sourceTree = "<group>"; };
-		4DE87711BEAF500FA7C81FA30E8471F1 /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
-		58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61592EF36D106E086F7F9236AA931586 /* Pods_AntDesignColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AntDesignColor_Example.framework; path = "Pods-AntDesignColor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C4178A70630E6FD564C906C1805F87 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9B32C0A224748926E965DCCC059DB7 /* AntDesignColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AntDesignColor-umbrella.h"; sourceTree = "<group>"; };
+		61592EF36D106E086F7F9236AA931586 /* Pods-AntDesignColor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AntDesignColor_Example"; path = Pods_AntDesignColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B999A6B6BCAC5367F7B9474286D65CB /* Pods-AntDesignColor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AntDesignColor_Tests-Info.plist"; sourceTree = "<group>"; };
-		6F8853DA5044D7DE849925D41227FF15 /* UIColor_Hex_Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UIColor_Hex_Swift-Info.plist"; sourceTree = "<group>"; };
-		7092B2E3ADFA3327BB0B602B840DF450 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		8A9D5698DC51083E7BD810480FFF03E8 /* AntDesignColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AntDesignColor-Info.plist"; sourceTree = "<group>"; };
-		8C3F7594B9E0DA5BF04914FBBFA8138A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8CD5EAE400932ED01F74CF3FD220BAA0 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73B8CEC0C8599E11D4BC45462A059E92 /* PlatformColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformColorExtension.swift; sourceTree = "<group>"; };
 		8D4912EB458DADAD077DC469773FF9C8 /* Pods-AntDesignColor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AntDesignColor_Example.modulemap"; sourceTree = "<group>"; };
-		8E1BEE413364302B9C7C8A3BBE762C36 /* UIColor_Hex_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.debug.xcconfig; sourceTree = "<group>"; };
-		92319DD1C93AFED0FAD52BF618EAA4C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		916C34DB8B95A4C67284ECEB640A6405 /* AntDesignColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntDesignColor.debug.xcconfig; sourceTree = "<group>"; };
 		944B43B369390097101988AFC415E8A9 /* Pods-AntDesignColor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AntDesignColor_Tests-dummy.m"; sourceTree = "<group>"; };
-		97DE9E6074B6525BF88782BFB0F06EB1 /* AntDesignColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AntDesignColor-umbrella.h"; sourceTree = "<group>"; };
-		9C1C023A1E0F29647C2031E309AA2655 /* Pods_AntDesignColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AntDesignColor_Tests.framework; path = "Pods-AntDesignColor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1C023A1E0F29647C2031E309AA2655 /* Pods-AntDesignColor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AntDesignColor_Tests"; path = Pods_AntDesignColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C43DC58E2C1D73D594243D2366D26C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD6A70B1EC2FF89A49C1CEC8C0C372CE /* Pods-AntDesignColor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AntDesignColor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B77B82FC34CEC0425AB6DA491C241199 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
 		B8E44CE3B3601F5E1E01EAB87DE5E551 /* Pods-AntDesignColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AntDesignColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BAC409DD9BB2B1287F4CE832DCF55985 /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
 		C3AA466C9AF6F3743B4BA5131A4F611C /* Pods-AntDesignColor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AntDesignColor_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C7081942AB3B6D775A47933B258373F5 /* Pods-AntDesignColor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AntDesignColor_Example-umbrella.h"; sourceTree = "<group>"; };
-		C92F3DA49DE31398ABA742904B81ED49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CA6AC9F254211706C8B188C3EB3C9520 /* Pods-AntDesignColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AntDesignColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD2E20C27B4D7AA1A2EFE4384A376295 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
-		E759DE3048FC401E358E99DED527D346 /* AntDesignColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntDesignColor.release.xcconfig; sourceTree = "<group>"; };
+		CB294D809E7674E2C6E7B72D2F2B1A4D /* AntDesignColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AntDesignColor.modulemap; sourceTree = "<group>"; };
+		CED9F177BD5FEEBB45DA9162649734D6 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D666EFE29982B71A4724A0983F47DD36 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		EAA5EBDF17AA0073BD9ED79885B7C37E /* Pods-AntDesignColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AntDesignColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EAF2A9AF777F3A7B45C225D622B70600 /* Pods-AntDesignColor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AntDesignColor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC9987463667CB867F336855DBCFB767 /* AntDesignColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntDesignColor.debug.xcconfig; sourceTree = "<group>"; };
-		F671A9B064FB7618A9CFC979C3EFAE19 /* AntDesignColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AntDesignColor-dummy.m"; sourceTree = "<group>"; };
-		F90F179719F24A69D44E68335E64B20E /* AntDesignColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AntDesignColor-prefix.pch"; sourceTree = "<group>"; };
+		F9973F30F313A94AC0B689382D811FA7 /* AntDesignColor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AntDesignColor-Info.plist"; sourceTree = "<group>"; };
 		FA8C5A95DB4ACB7B1CE79BDE83BDBA3F /* Pods-AntDesignColor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AntDesignColor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FB23BE8F09F24CE43AD607948416694D /* PlatformColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformColorInputError.swift; sourceTree = "<group>"; };
+		FE3E195699E525EF84E151F6174D2C4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01EFAB73A21F8DC1992A723825129498 /* Frameworks */ = {
+		511E979E3EDDB47F4FD5D28B6A2D7230 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7ADDCB39627F9A28264BB16DAB9AE0A /* Foundation.framework in Frameworks */,
-				069CFE8419DE0E5CC21B1648D6738A2C /* UIKit.framework in Frameworks */,
+				C6053FCCBF97DD6705E77F31840BCFF4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		330CDDFA52BB3DCF06FD2779E33057EA /* Frameworks */ = {
+		DDE144B3CEDA0D56961E7FE0C9B45579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDF3EFE94D4C26C5B2AA1583958D2C55 /* Foundation.framework in Frameworks */,
+				B55A3F854F8C9C50B52EF2DC65AD8778 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		598CD7BF365AB79313CB3439D78F8B18 /* Frameworks */ = {
+		E4CBFA95F9742E55F39FAE1188246AE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1498390D8E4F41ED7247F33D73A07E69 /* Foundation.framework in Frameworks */,
-				485B1543F0F3E704AFECA830A2489912 /* UIColor_Hex_Swift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69058442C858AC25D5DF84B656A479E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D7FFAD6665E43A3F8F3DE9B83CD319D /* Foundation.framework in Frameworks */,
+				E5549677F9880AAC42675E6BDCDB59FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0896D42FC7A62962CA1584C635994E59 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8CD5EAE400932ED01F74CF3FD220BAA0 /* UIColor_Hex_Swift.modulemap */,
-				0524CF1E14EC0B5BB017E5295DCABE60 /* UIColor_Hex_Swift-dummy.m */,
-				6F8853DA5044D7DE849925D41227FF15 /* UIColor_Hex_Swift-Info.plist */,
-				4DE87711BEAF500FA7C81FA30E8471F1 /* UIColor_Hex_Swift-prefix.pch */,
-				DD2E20C27B4D7AA1A2EFE4384A376295 /* UIColor_Hex_Swift-umbrella.h */,
-				8E1BEE413364302B9C7C8A3BBE762C36 /* UIColor_Hex_Swift.debug.xcconfig */,
-				03591FA709468C91F780DDA80D341E99 /* UIColor_Hex_Swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UIColor_Hex_Swift";
-			sourceTree = "<group>";
-		};
-		1549D94D69FEC4AC42316D5463E3A484 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1BDC5D3D40B130E6BE8AECA6167D5054 /* AntDesignColor.podspec */,
-				7092B2E3ADFA3327BB0B602B840DF450 /* LICENSE */,
-				92319DD1C93AFED0FAD52BF618EAA4C2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		1B8E89864C5B15A806B320042A2BD23C /* Pods-AntDesignColor_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,15 +124,19 @@
 			path = "Target Support Files/Pods-AntDesignColor_Tests";
 			sourceTree = "<group>";
 		};
-		2964013D6F6E480B23AEF9B9D7DD6644 /* Products */ = {
+		256C1B765CF2EA8CB4C57240751C9446 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4614D0B7A61440B60C8FF61199B0BEB1 /* AntDesignColor.framework */,
-				61592EF36D106E086F7F9236AA931586 /* Pods_AntDesignColor_Example.framework */,
-				9C1C023A1E0F29647C2031E309AA2655 /* Pods_AntDesignColor_Tests.framework */,
-				58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift.framework */,
+				CB294D809E7674E2C6E7B72D2F2B1A4D /* AntDesignColor.modulemap */,
+				342D122E1F9AA71CD04FD17354A880B9 /* AntDesignColor-dummy.m */,
+				F9973F30F313A94AC0B689382D811FA7 /* AntDesignColor-Info.plist */,
+				044CE0CE2F2C8DB631F4420A9C81C199 /* AntDesignColor-prefix.pch */,
+				4B9B32C0A224748926E965DCCC059DB7 /* AntDesignColor-umbrella.h */,
+				916C34DB8B95A4C67284ECEB640A6405 /* AntDesignColor.debug.xcconfig */,
+				34720BE9C0F32DAE9D3892B47E6B0E39 /* AntDesignColor.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AntDesignColor";
 			sourceTree = "<group>";
 		};
 		2AD0CAEC856A2A2889546A7F70D8E80D /* Targets Support Files */ = {
@@ -208,40 +148,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		44DC1DB7594D86E879D51373824034A6 /* Frameworks */ = {
+		38BF2D9AED6ACBCBF3931692D468E835 /* HEX */ = {
 			isa = PBXGroup;
 			children = (
-				67C4178A70630E6FD564C906C1805F87 /* UIColor_Hex_Swift.framework */,
-				B4E00FC0A8153F8FEB68136A699D9076 /* iOS */,
+				D666EFE29982B71A4724A0983F47DD36 /* ColorExtension.swift */,
+				73B8CEC0C8599E11D4BC45462A059E92 /* PlatformColorExtension.swift */,
+				FB23BE8F09F24CE43AD607948416694D /* PlatformColorInputError.swift */,
+				CED9F177BD5FEEBB45DA9162649734D6 /* StringExtension.swift */,
 			);
-			name = Frameworks;
+			name = HEX;
+			path = Sources/AntDesignColor/HEX;
 			sourceTree = "<group>";
 		};
-		52CAD2482FC9AC89671234F174BA8E80 /* Pods */ = {
+		55785192C597A105611592E3F319AA21 /* AntDesignColor */ = {
 			isa = PBXGroup;
 			children = (
-				DB36E79B88441415D27E7EFCF7E3098C /* UIColor_Hex_Swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		704DF9DB3D9C901D4419606ADD4DA1F8 /* AntDesignColor */ = {
-			isa = PBXGroup;
-			children = (
-				44C817D0178FFBF97B753950340A1CE4 /* AntDesignColor.swift */,
-				1549D94D69FEC4AC42316D5463E3A484 /* Pod */,
-				BAB481FC830A9364DBB9A00EE7E5C7C3 /* Support Files */,
+				082705C4DF003BC356511C7B954C5429 /* AntDesignColor.swift */,
+				38BF2D9AED6ACBCBF3931692D468E835 /* HEX */,
+				F5DD16ECFFF01F18BA7F103EE9BF83E3 /* Pod */,
+				256C1B765CF2EA8CB4C57240751C9446 /* Support Files */,
 			);
 			name = AntDesignColor;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		942EFE2FBE0F68E3E7EFE865A55CFB6B /* Development Pods */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				704DF9DB3D9C901D4419606ADD4DA1F8 /* AntDesignColor */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = "Development Pods";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A96EE0FE00D238FACE15E6CCCD325EE7 /* Pods-AntDesignColor_Example */ = {
@@ -261,88 +197,77 @@
 			path = "Target Support Files/Pods-AntDesignColor_Example";
 			sourceTree = "<group>";
 		};
-		B4E00FC0A8153F8FEB68136A699D9076 /* iOS */ = {
+		BB53F823F086C100F20B87956C5FF5F8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C3F7594B9E0DA5BF04914FBBFA8138A /* Foundation.framework */,
-				C92F3DA49DE31398ABA742904B81ED49 /* UIKit.framework */,
+				55785192C597A105611592E3F319AA21 /* AntDesignColor */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BAB481FC830A9364DBB9A00EE7E5C7C3 /* Support Files */ = {
+		C248110D47CA6B359993B02ECD4EDC0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2219D6536038013A5F4D9649EB88DE3F /* AntDesignColor.modulemap */,
-				F671A9B064FB7618A9CFC979C3EFAE19 /* AntDesignColor-dummy.m */,
-				8A9D5698DC51083E7BD810480FFF03E8 /* AntDesignColor-Info.plist */,
-				F90F179719F24A69D44E68335E64B20E /* AntDesignColor-prefix.pch */,
-				97DE9E6074B6525BF88782BFB0F06EB1 /* AntDesignColor-umbrella.h */,
-				EC9987463667CB867F336855DBCFB767 /* AntDesignColor.debug.xcconfig */,
-				E759DE3048FC401E358E99DED527D346 /* AntDesignColor.release.xcconfig */,
+				4614D0B7A61440B60C8FF61199B0BEB1 /* AntDesignColor */,
+				61592EF36D106E086F7F9236AA931586 /* Pods-AntDesignColor_Example */,
+				9C1C023A1E0F29647C2031E309AA2655 /* Pods-AntDesignColor_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AntDesignColor";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				942EFE2FBE0F68E3E7EFE865A55CFB6B /* Development Pods */,
-				44DC1DB7594D86E879D51373824034A6 /* Frameworks */,
-				52CAD2482FC9AC89671234F174BA8E80 /* Pods */,
-				2964013D6F6E480B23AEF9B9D7DD6644 /* Products */,
+				BB53F823F086C100F20B87956C5FF5F8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C248110D47CA6B359993B02ECD4EDC0E /* Products */,
 				2AD0CAEC856A2A2889546A7F70D8E80D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DB36E79B88441415D27E7EFCF7E3098C /* UIColor_Hex_Swift */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39C2B64E8C8E8A1C6DB83549A1BBDAC0 /* HEXColor.h */,
-				2922CCF8F6A058337E4E4536A10CF166 /* StringExtension.swift */,
-				B77B82FC34CEC0425AB6DA491C241199 /* UIColorExtension.swift */,
-				BAC409DD9BB2B1287F4CE832DCF55985 /* UIColorInputError.swift */,
-				0896D42FC7A62962CA1584C635994E59 /* Support Files */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = UIColor_Hex_Swift;
-			path = UIColor_Hex_Swift;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5DD16ECFFF01F18BA7F103EE9BF83E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08F84CF05523B279FF5588E768CE8EA0 /* AntDesignColor.podspec */,
+				FE3E195699E525EF84E151F6174D2C4E /* LICENSE */,
+				9C43DC58E2C1D73D594243D2366D26C6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		060EB683270049209B0AD4DC61EB8A36 /* Headers */ = {
+		CE1F7531DFD64DDD5D6147AD39473C92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5799C46C73330EDF470EC32DDCF22DCB /* HEXColor.h in Headers */,
-				26CFF743A0AC7C2AAFE074B0DDA8BB19 /* UIColor_Hex_Swift-umbrella.h in Headers */,
+				3A7C4EF6E3DEE63BD2086AA2FBE3A900 /* Pods-AntDesignColor_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		272D83AE2F3A633E2BA4E51A0D894E2D /* Headers */ = {
+		CFC7B095EE00DF70A9282DB5B7230D83 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C636BCF700E868343A0F27E0BF4130 /* AntDesignColor-umbrella.h in Headers */,
+				25F963EDFE8D159EA251EFA4810779E0 /* AntDesignColor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83E07FA97EDB996D5927992A01F021D1 /* Headers */ = {
+		F81DA13DBD6BEA458DDE3A5B1C6BBD78 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E7CB209821BB6CA1D63D4E701C8853 /* Pods-AntDesignColor_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F175C7BF93E5D105531D943629F3EB6C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				516113FCFA4E54AF672129BFB34457CA /* Pods-AntDesignColor_Example-umbrella.h in Headers */,
+				C368191140704E20E5254C40AB54E328 /* Pods-AntDesignColor_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,78 +276,58 @@
 /* Begin PBXNativeTarget section */
 		6290068312F1BDC0455EF7C1BD259987 /* AntDesignColor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C98A7DCE72BA8B3B7662F72FE39393C /* Build configuration list for PBXNativeTarget "AntDesignColor" */;
+			buildConfigurationList = 8F3E0CD29DE2A5857BB04B756323F6A0 /* Build configuration list for PBXNativeTarget "AntDesignColor" */;
 			buildPhases = (
-				272D83AE2F3A633E2BA4E51A0D894E2D /* Headers */,
-				7312931E6CD5DDA25CB56BAA393BDBFB /* Sources */,
-				598CD7BF365AB79313CB3439D78F8B18 /* Frameworks */,
-				A1A51C6CA07B46925CB3A7C85DCB4C7B /* Resources */,
+				CFC7B095EE00DF70A9282DB5B7230D83 /* Headers */,
+				E44224E3AA4E7E4AB527C07B6102F53D /* Sources */,
+				DDE144B3CEDA0D56961E7FE0C9B45579 /* Frameworks */,
+				F0AA976D6AADCF18CD89C59CB41F1F83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9073CA441BD0BFF6C7DC6A05A23BEE2 /* PBXTargetDependency */,
 			);
 			name = AntDesignColor;
 			productName = AntDesignColor;
-			productReference = 4614D0B7A61440B60C8FF61199B0BEB1 /* AntDesignColor.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 252AFAE287FEFB532A5FD5830EC925D6 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
-			buildPhases = (
-				060EB683270049209B0AD4DC61EB8A36 /* Headers */,
-				BBB8210874B2C2EF0FC9E10CD9000CC1 /* Sources */,
-				01EFAB73A21F8DC1992A723825129498 /* Frameworks */,
-				A27DDD14967F5A52E5BF41494C03FB42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UIColor_Hex_Swift;
-			productName = UIColor_Hex_Swift;
-			productReference = 58FA08FD4595D3CA9B2AA81405DE2EFA /* UIColor_Hex_Swift.framework */;
+			productReference = 4614D0B7A61440B60C8FF61199B0BEB1 /* AntDesignColor */;
 			productType = "com.apple.product-type.framework";
 		};
 		A2ECEE1B37AD16C434897EBD645BA30E /* Pods-AntDesignColor_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 080039B989594E89D7651E3B113C9131 /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Tests" */;
+			buildConfigurationList = A73578382ADEAF8A941593A1F6716B54 /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Tests" */;
 			buildPhases = (
-				83E07FA97EDB996D5927992A01F021D1 /* Headers */,
-				010BD4BB38181CE01BCE425FE50AE61B /* Sources */,
-				69058442C858AC25D5DF84B656A479E8 /* Frameworks */,
-				22086B4C92E6C688599750D9616F6459 /* Resources */,
+				CE1F7531DFD64DDD5D6147AD39473C92 /* Headers */,
+				A6A50119459CCB6C3E40395BBA6BDD28 /* Sources */,
+				E4CBFA95F9742E55F39FAE1188246AE1 /* Frameworks */,
+				4E191C9CE12C3A43B8B1E14D7BCA21CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E1F67C7F8A42298739CAF81B340DEE3F /* PBXTargetDependency */,
+				9A99F03C3ABDFECA0A83E2083A72F16B /* PBXTargetDependency */,
 			);
 			name = "Pods-AntDesignColor_Tests";
-			productName = "Pods-AntDesignColor_Tests";
-			productReference = 9C1C023A1E0F29647C2031E309AA2655 /* Pods_AntDesignColor_Tests.framework */;
+			productName = Pods_AntDesignColor_Tests;
+			productReference = 9C1C023A1E0F29647C2031E309AA2655 /* Pods-AntDesignColor_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		D300B9DC544A9A43D021E59CB2055962 /* Pods-AntDesignColor_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBD00C7403B603018E2A5973BEE49C0A /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Example" */;
+			buildConfigurationList = F2D26A8B85A6589B2F5BB3DE6E63F595 /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Example" */;
 			buildPhases = (
-				F175C7BF93E5D105531D943629F3EB6C /* Headers */,
-				7114610E0EE0B11D827C76CCA7128EF2 /* Sources */,
-				330CDDFA52BB3DCF06FD2779E33057EA /* Frameworks */,
-				04157B1DEA3F2EC3E4A216DFFE5395BA /* Resources */,
+				F81DA13DBD6BEA458DDE3A5B1C6BBD78 /* Headers */,
+				7459FCE2F8FFCE909CF7BFA67032D9E1 /* Sources */,
+				511E979E3EDDB47F4FD5D28B6A2D7230 /* Frameworks */,
+				395C2CA8713FCF34E6FB88F898DC06F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7EECA622724058CD8C763F840E87D517 /* PBXTargetDependency */,
-				9BA2E51833C77FF25D2D6CD0DD398914 /* PBXTargetDependency */,
+				5F94B94DBE0F5230E1CBDC76BC7FFD37 /* PBXTargetDependency */,
 			);
 			name = "Pods-AntDesignColor_Example";
-			productName = "Pods-AntDesignColor_Example";
-			productReference = 61592EF36D106E086F7F9236AA931586 /* Pods_AntDesignColor_Example.framework */;
+			productName = Pods_AntDesignColor_Example;
+			productReference = 61592EF36D106E086F7F9236AA931586 /* Pods-AntDesignColor_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -439,45 +344,37 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2964013D6F6E480B23AEF9B9D7DD6644 /* Products */;
+			productRefGroup = C248110D47CA6B359993B02ECD4EDC0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6290068312F1BDC0455EF7C1BD259987 /* AntDesignColor */,
 				D300B9DC544A9A43D021E59CB2055962 /* Pods-AntDesignColor_Example */,
 				A2ECEE1B37AD16C434897EBD645BA30E /* Pods-AntDesignColor_Tests */,
-				A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04157B1DEA3F2EC3E4A216DFFE5395BA /* Resources */ = {
+		395C2CA8713FCF34E6FB88F898DC06F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22086B4C92E6C688599750D9616F6459 /* Resources */ = {
+		4E191C9CE12C3A43B8B1E14D7BCA21CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1A51C6CA07B46925CB3A7C85DCB4C7B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A27DDD14967F5A52E5BF41494C03FB42 /* Resources */ = {
+		F0AA976D6AADCF18CD89C59CB41F1F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -487,261 +384,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		010BD4BB38181CE01BCE425FE50AE61B /* Sources */ = {
+		7459FCE2F8FFCE909CF7BFA67032D9E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B3182AE68BFF56876F50D89AF994D3 /* Pods-AntDesignColor_Tests-dummy.m in Sources */,
+				DCC40D534838592DB0DFC5E52BD66B10 /* Pods-AntDesignColor_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7114610E0EE0B11D827C76CCA7128EF2 /* Sources */ = {
+		A6A50119459CCB6C3E40395BBA6BDD28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8EC3F190F6267C7121EFBC43B1D456 /* Pods-AntDesignColor_Example-dummy.m in Sources */,
+				B3D4BB579B5C89DFBA1766292DFE5DC7 /* Pods-AntDesignColor_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7312931E6CD5DDA25CB56BAA393BDBFB /* Sources */ = {
+		E44224E3AA4E7E4AB527C07B6102F53D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBEE5B8C717DDD01C865969CB9F261C /* AntDesignColor-dummy.m in Sources */,
-				0A059F273FC7B52FF64B248947187C42 /* AntDesignColor.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBB8210874B2C2EF0FC9E10CD9000CC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				286E49002EFA7F2ED78F56E51F30751A /* StringExtension.swift in Sources */,
-				AE8A6BCEC5BBE9E6EB6A212C33302628 /* UIColor_Hex_Swift-dummy.m in Sources */,
-				13B0494165A6D7DBE794424EFEA2A5B5 /* UIColorExtension.swift in Sources */,
-				178D1C8ECBBFAFAF2187A159FFDC6261 /* UIColorInputError.swift in Sources */,
+				32036FD47F7C5533641642EFFBC2C131 /* AntDesignColor.swift in Sources */,
+				7D554C4090A2AAE9EA22929DCB0F823F /* AntDesignColor-dummy.m in Sources */,
+				8074DD87705CCF92D3538D1C51EA22F4 /* ColorExtension.swift in Sources */,
+				7211F566763D45CC77281E23AD060D84 /* PlatformColorExtension.swift in Sources */,
+				FDEE10841FF3984C57B8352F3E3F43AB /* PlatformColorInputError.swift in Sources */,
+				382C084766062E248D78FD9C11209F23 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7EECA622724058CD8C763F840E87D517 /* PBXTargetDependency */ = {
+		5F94B94DBE0F5230E1CBDC76BC7FFD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AntDesignColor;
 			target = 6290068312F1BDC0455EF7C1BD259987 /* AntDesignColor */;
-			targetProxy = 7A030F1252EA6E73BE4E737B192CDAA5 /* PBXContainerItemProxy */;
+			targetProxy = 7942B9439D52A48E96B59B6919AD6388 /* PBXContainerItemProxy */;
 		};
-		9BA2E51833C77FF25D2D6CD0DD398914 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
-			targetProxy = F5D2673E2DE52EDDC310D400E30672DC /* PBXContainerItemProxy */;
-		};
-		E1F67C7F8A42298739CAF81B340DEE3F /* PBXTargetDependency */ = {
+		9A99F03C3ABDFECA0A83E2083A72F16B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AntDesignColor_Example";
 			target = D300B9DC544A9A43D021E59CB2055962 /* Pods-AntDesignColor_Example */;
-			targetProxy = A2C4F21CD437BE33277996C8D78F5379 /* PBXContainerItemProxy */;
-		};
-		E9073CA441BD0BFF6C7DC6A05A23BEE2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UIColor_Hex_Swift;
-			target = A0CA3B0841360687C00D0E48D3E4C1B9 /* UIColor_Hex_Swift */;
-			targetProxy = 07BD8734CAF66C51B511EC669B8E2AAB /* PBXContainerItemProxy */;
+			targetProxy = 925CAF4DB1D34286014BF7D6B133015A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25F228D01387D98684D636F94A2E300B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03591FA709468C91F780DDA80D341E99 /* UIColor_Hex_Swift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
-				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
-				PRODUCT_NAME = UIColor_Hex_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5BA3F096BB834A01C9C3028B815A7FDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6AC9F254211706C8B188C3EB3C9520 /* Pods-AntDesignColor_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D11BD8BA00B8FE215A901559E35D475 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E1BEE413364302B9C7C8A3BBE762C36 /* UIColor_Hex_Swift.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
-				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
-				PRODUCT_NAME = UIColor_Hex_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		789BE4DBD1B6B87B660FEAFA10D3BC29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 076410F426D0A09D1ACC82D10A0D11CD /* Pods-AntDesignColor_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -794,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -807,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		86A0542B0D8965B7420BEA71BB641901 /* Release */ = {
+		71467F42B1D18EE3B70F9BDC185132F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAA5EBDF17AA0073BD9ED79885B7C37E /* Pods-AntDesignColor_Tests.release.xcconfig */;
 			buildSettings = {
@@ -822,7 +512,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AntDesignColor_Tests/Pods-AntDesignColor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AntDesignColor_Tests/Pods-AntDesignColor_Tests.modulemap";
@@ -840,9 +529,9 @@
 			};
 			name = Release;
 		};
-		93479B8211C4734074AA012441D1F1F4 /* Release */ = {
+		854DE71ADF5D0CBD7C4BC62E1F15909C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E759DE3048FC401E358E99DED527D346 /* AntDesignColor.release.xcconfig */;
+			baseConfigurationReference = 916C34DB8B95A4C67284ECEB640A6405 /* AntDesignColor.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -855,7 +544,35 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AntDesignColor/AntDesignColor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AntDesignColor/AntDesignColor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AntDesignColor/AntDesignColor.modulemap";
+				PRODUCT_MODULE_NAME = AntDesignColor;
+				PRODUCT_NAME = AntDesignColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AFE83C87E121D17FCB7B75C4A4D5577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34720BE9C0F32DAE9D3892B47E6B0E39 /* AntDesignColor.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AntDesignColor/AntDesignColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AntDesignColor/AntDesignColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AntDesignColor/AntDesignColor.modulemap";
 				PRODUCT_MODULE_NAME = AntDesignColor;
@@ -871,10 +588,11 @@
 			};
 			name = Release;
 		};
-		B8EB0474088B7AE79DBD27516A3F3437 /* Debug */ = {
+		BA0061ED49EF8153346B92BD110E1037 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC9987463667CB867F336855DBCFB767 /* AntDesignColor.debug.xcconfig */;
+			baseConfigurationReference = 076410F426D0A09D1ACC82D10A0D11CD /* Pods-AntDesignColor_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -883,25 +601,119 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AntDesignColor/AntDesignColor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AntDesignColor/AntDesignColor-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AntDesignColor/AntDesignColor.modulemap";
-				PRODUCT_MODULE_NAME = AntDesignColor;
-				PRODUCT_NAME = AntDesignColor;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DCB3DF7F6C98C4148D0930ED040DF49E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6AC9F254211706C8B188C3EB3C9520 /* Pods-AntDesignColor_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AntDesignColor_Example/Pods-AntDesignColor_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EA342E4BF16FB6C752ED1032AC23E161 /* Debug */ = {
+		E59C398068A365BBBE39C4DBEE7F16AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8E44CE3B3601F5E1E01EAB87DE5E551 /* Pods-AntDesignColor_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -916,7 +728,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AntDesignColor_Tests/Pods-AntDesignColor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AntDesignColor_Tests/Pods-AntDesignColor_Tests.modulemap";
@@ -936,47 +747,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		080039B989594E89D7651E3B113C9131 /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA342E4BF16FB6C752ED1032AC23E161 /* Debug */,
-				86A0542B0D8965B7420BEA71BB641901 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		252AFAE287FEFB532A5FD5830EC925D6 /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D11BD8BA00B8FE215A901559E35D475 /* Debug */,
-				25F228D01387D98684D636F94A2E300B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79759604D78320E712558F49DF19AA9F /* Debug */,
-				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C98A7DCE72BA8B3B7662F72FE39393C /* Build configuration list for PBXNativeTarget "AntDesignColor" */ = {
+		8F3E0CD29DE2A5857BB04B756323F6A0 /* Build configuration list for PBXNativeTarget "AntDesignColor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8EB0474088B7AE79DBD27516A3F3437 /* Debug */,
-				93479B8211C4734074AA012441D1F1F4 /* Release */,
+				854DE71ADF5D0CBD7C4BC62E1F15909C /* Debug */,
+				8AFE83C87E121D17FCB7B75C4A4D5577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBD00C7403B603018E2A5973BEE49C0A /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Example" */ = {
+		A73578382ADEAF8A941593A1F6716B54 /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BA3F096BB834A01C9C3028B815A7FDD /* Debug */,
-				789BE4DBD1B6B87B660FEAFA10D3BC29 /* Release */,
+				E59C398068A365BBBE39C4DBEE7F16AC /* Debug */,
+				71467F42B1D18EE3B70F9BDC185132F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D26A8B85A6589B2F5BB3DE6E63F595 /* Build configuration list for PBXNativeTarget "Pods-AntDesignColor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3DF7F6C98C4148D0930ED040DF49E /* Debug */,
+				BA0061ED49EF8153346B92BD110E1037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
